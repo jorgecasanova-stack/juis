@@ -4,15 +4,224 @@
     "alvaro": {
       "label": "Álvaro",
       "desc": "Grave y envolvente"
+    },
+    "ximena": {
+      "label": "Ximena",
+      "desc": "Clara y juvenil"
+    },
+    "elvira": {
+      "label": "Elvira",
+      "desc": "Natural y cercana"
     }
   },
   "baseUrl": "http://192.168.1.138:8000",
   "episodes": [
     {
+      "id": "deporte-jordan",
+      "name": "Michael Jordan",
+      "title": "Al que cortaron del equipo y se hizo el mejor de la historia",
+      "era": "Siglo XX",
+      "coleccion": "deporte",
+      "tags": [
+        "Baloncesto",
+        "NBA",
+        "Estados Unidos",
+        "Leyenda"
+      ],
+      "order": 1,
+      "duration": 429,
+      "image": "images/deporte-jordan.jpg",
+      "audio": {
+        "alvaro": "audio/deporte-jordan_alvaro.mp3"
+      },
+      "script": "Imagina que tienes quince años, que amas el baloncesto más que ninguna otra cosa en el mundo, y que un día ves la lista del equipo de tu instituto clavada en la pared. Recorres los nombres con el dedo, una y otra vez, y el tuyo no está. No te han elegido. Te han cortado. Vuelves a casa, te encierras en tu habitación y lloras. Ese chico que llora se llama Michael Jordan, y te voy a contar cómo se convirtió en el mejor jugador de baloncesto que ha existido jamás.\n\nAquí conviene derribar el primer mito, porque la historia se ha contado mil veces de forma exagerada. A Jordan no lo expulsaron por malo. El instituto de Wilmington, en Carolina del Norte, tenía un equipo absoluto para los mayores y otro para los más jóvenes. Michael, con su metro ochenta de entonces, fue al equipo de los pequeños mientras un amigo suyo más alto subía con los mayores. Para casi cualquier adolescente eso habría sido un trámite olvidable. Para Michael fue una herida. Y esa herida es la clave de todo lo que vino después.\n\nPorque Jordan no era simplemente competitivo. Jordan convertía cualquier desaire, real o imaginado, en combustible. Aquel verano creció varios centímetros y se puso a entrenar como un poseso. Llegaba al gimnasio antes que nadie y se iba el último. Y nunca, jamás, olvidó aquella lista. Años después, ya siendo una estrella mundial, confesó que cada vez que estaba agotado en un entrenamiento, cerraba los ojos y se imaginaba aquella pared con su nombre ausente. Y seguía.\n\nAhora quiero que te sitúes en una cancha universitaria, en mil novecientos ochenta y dos, final del campeonato nacional. Carolina del Norte contra Georgetown. Quedan diecisiete segundos, su equipo pierde por un punto. El balón llega a un novato de diecinueve años. Cualquier otro se lo habría pasado a una estrella consagrada. Pero ese novato pide la pelota, salta y lanza. Entra. Campeones. Y ahí el mundo empezó a entender que aquel chico tenía algo distinto: no le temblaba el pulso en el momento exacto en que a todos los demás les tiembla.\n\nTe voy a contar una curiosidad que poca gente conoce. Cuando Nike le ofreció su primer contrato y diseñó unas zapatillas rojas y negras para él, la liga las prohibió porque no respetaban el código de colores. Multaban a Jordan con miles de dólares cada partido que las llevaba. ¿Y sabes qué hizo Nike? Pagar todas las multas encantada y montar un anuncio que decía, más o menos, que la liga no podía impedir que tú las calzaras. Aquellas zapatillas prohibidas se convirtieron en el objeto más deseado del planeta. Naciendo de un castigo, nació el imperio comercial más grande de la historia del deporte.\n\nPero no te dejes engañar por el dinero y el marketing. Lo que hacía único a Jordan ocurría dentro de la cancha, y muchas veces cuando peor se encontraba. Hay una noche que lo resume todo. Finales de mil novecientos noventa y siete, partido decisivo, y Michael amanece con una intoxicación tan brutal que apenas puede tenerse en pie. Está deshidratado, pálido, vomitando. Los médicos le dicen que no debería jugar. Y él juega. Cuarenta y cuatro minutos. Anota treinta y ocho puntos. En los últimos segundos se desploma en brazos de su compañero Scottie Pippen porque ya no le queda cuerpo. Ganaron. Aquello pasó a la historia como el partido de la gripe, y es la imagen perfecta de un hombre que decidía con la voluntad lo que el cuerpo le negaba.\n\nConquistó seis campeonatos con los Chicago Bulls. Seis finales, seis anillos, nunca perdió una. Pero entremedias hizo algo que nadie entendió y que demuestra hasta dónde llegaba su cabeza. En lo más alto de su carrera, recién asesinado su padre, al que adoraba, Jordan dejó el baloncesto y se fue a jugar al béisbol. Al béisbol profesional, un deporte que apenas dominaba, en una liga menor, viajando en autobuses destartalados como un novato cualquiera. Se rieron de él portadas enteras. Y a él le dio igual. Necesitaba ese duelo, esa huida, ese reto absurdo. Cuando volvió al baloncesto, mandó un comunicado de dos palabras que lo decía todo: he vuelto. Y ganó tres títulos más.\n\nAquí hay otro mito que conviene matizar. Se dice que Jordan era el mejor compañero del mundo. La verdad es más incómoda. Era durísimo. Empujaba a sus compañeros hasta hacerles llorar en los entrenamientos, les gritaba, los humillaba si no daban el máximo. No buscaba ser querido, buscaba ganar, y exigía a los demás la misma obsesión que se exigía a sí mismo. Algunos lo odiaron. Casi todos, con el tiempo, lo agradecieron, porque ganaron cosas que solos jamás habrían soñado.\n\nY quizá lo más revelador de Michael Jordan no son los triunfos, sino lo que él mismo dijo sobre los fracasos. En una ocasión confesó algo que deberías grabarte. Dijo que había fallado más de nueve mil tiros en su carrera. Que había perdido casi trescientos partidos. Que veintiséis veces le confiaron el lanzamiento ganador y falló. Y luego remató con la frase que lo explica entero: he fracasado una y otra y otra vez en mi vida, y por eso he triunfado.\n\nDetente un momento en esa idea, porque ahí está el corazón de todo. El mejor jugador de la historia no se construyó evitando el fracaso. Se construyó coleccionándolo, abrazándolo, usándolo. Cada tiro fallado era la condición necesaria del siguiente acierto. Cada lista en la que no aparecía su nombre era el primer ladrillo de la leyenda.\n\nAsí que la próxima vez que algo te salga mal, que no te elijan, que te dejen fuera de una lista, recuerda a aquel chaval de quince años llorando en su habitación de Carolina del Norte. No fue el talento puro lo que lo hizo inmortal, porque talento hay mucho en el mundo. Fue lo que decidió hacer con el dolor de no ser suficiente. Lo convirtió en hambre. Y el hambre, cuando no se apaga nunca, es la fuerza más poderosa que existe.\n\nPorque al final la diferencia entre el que mira la lista y se rinde, y el que mira la lista y la convierte en promesa, no la marcan los centímetros ni la suerte. La marca lo que estás dispuesto a hacer mañana, a las seis de la mañana, cuando nadie te ve y a nadie le importa. Ahí, en esa soledad, es donde se fabrican las leyendas."
+    },
+    {
+      "id": "deporte-usain-bolt",
+      "name": "Usain Bolt",
+      "title": "El hombre más rápido que ha existido",
+      "era": "Siglo XXI",
+      "coleccion": "deporte",
+      "tags": [
+        "Atletismo",
+        "Velocidad",
+        "Jamaica",
+        "Récord"
+      ],
+      "order": 2,
+      "duration": 394,
+      "image": "images/deporte-usain-bolt.jpg",
+      "audio": {
+        "alvaro": "audio/deporte-usain-bolt_alvaro.mp3"
+      },
+      "script": "Te voy a pedir algo. Cuenta hasta diez, despacio, en voz alta. Uno, dos, tres... Bien. Ahora imagina que en ese tiempo, en menos de lo que has tardado, un hombre ha recorrido cien metros corriendo. Cien metros en menos de diez segundos. Y no solo eso: imagina que ese hombre, en los últimos metros, en lugar de apretar los dientes como hacen todos, se relaja, sonríe, mira a los lados y casi parece que se divierte. Ese hombre se llama Usain Bolt, y es, sin discusión posible, el ser humano más rápido que ha pisado la Tierra.\n\nPero antes de los récords y la gloria, conviene que conozcas un secreto incómodo. El niño que nació en un pueblo perdido de Jamaica, llamado Sherwood Content, donde el agua se sacaba de un pozo y la electricidad era un lujo, no quería ser velocista. A Usain le gustaba el cricket. Soñaba con ser lanzador de cricket. Fue un entrenador quien, al verlo correr entre wicket y wicket, le dijo que estaba desperdiciando un don. Y aquí viene la primera curiosidad que casi nadie sabe: Bolt sufría escoliosis, una curvatura en la columna que, en teoría, debería haberle complicado la vida atlética. Su pierna derecha era más corta que la izquierda. El cuerpo que la naturaleza le dio no era, sobre el papel, el cuerpo perfecto de un corredor.\n\nY aquí está el mito que hay que derribar. Todo el mundo cree que Bolt corría rápido porque era altísimo, casi dos metros, y que con esas piernas larguísimas era una ventaja evidente. Falso. Durante décadas, los entrenadores pensaban exactamente lo contrario: que un hombre tan alto era demasiado lento al arrancar, demasiado torpe para los explosivos primeros metros. Por eso nadie como él había triunfado nunca en los cien metros. Bolt no ganó gracias a su físico raro. Ganó a pesar de él, reinventando por completo cómo se corre esa distancia.\n\nAhora quiero llevarte a Pekín, dos mil ocho. Final olímpica de los cien metros. La línea de salida. Ocho de los hombres más rápidos del planeta, tensos como cuerdas de violín. Suena el disparo. Y a los sesenta metros pasa algo que jamás se había visto en una final olímpica. Bolt ya va por delante de todos, tan por delante que, faltando veinte metros para la meta, hace algo impensable: empieza a celebrar. Abre los brazos, se golpea el pecho, deja de correr a fondo. Aun así, para el reloj en nueve coma sesenta y nueve segundos. Récord del mundo. Y los expertos se llevaron las manos a la cabeza, porque calcularon que, si no se hubiera puesto a celebrar, habría bajado de nueve segundos y medio, una cifra que se consideraba ciencia ficción.\n\nTe voy a contar otro detalle que multiplica la leyenda. Aquella misma noche de Pekín, se supo después, Bolt había desayunado, almorzado y cenado nuggets de pollo. No por estrategia deportiva, sino porque no se fiaba de la comida local y era lo único que reconocía. Se calcula que se comió alrededor de cien nuggets durante aquellos días. El hombre más rápido de la historia batió el récord del mundo alimentado a base de pollo frito. A veces la grandeza no necesita un manual perfecto, necesita que alguien irrepetible esté dentro.\n\nUn año después, en Berlín, hizo lo que parecía imposible de superar: bajó su propio récord hasta nueve coma cincuenta y ocho segundos. Esa marca sigue en pie hoy. Nadie se ha acercado de verdad. Para que te hagas una idea de lo que significa, en el momento de máxima velocidad Bolt alcanzaba casi cuarenta y cinco kilómetros por hora. Un coche en ciudad. Un hombre, con sus piernas, moviéndose como un vehículo a motor.\n\nPero si solo te quedas con los números, te pierdes lo más bonito. Lo que convirtió a Bolt en un fenómeno mundial, más allá del cronómetro, fue su alegría. En un deporte de caras serias, de tensión y nervios, él llegaba a las pistas bailando, bromeando con los rivales, haciendo el payaso ante las cámaras un minuto antes de la carrera más importante de su vida. Su gesto del rayo, con un brazo apuntando al cielo, dio la vuelta al mundo. Demostró algo precioso: que se puede ser el mejor del planeta sin dejar de disfrutar, sin convertirlo todo en sufrimiento.\n\nConquistó tres Juegos Olímpicos seguidos. Ocho medallas de oro. Y aquí hay un episodio doloroso y honesto que merece contarse. Una de esas medallas se la quitaron tiempo después, porque un compañero de su relevo dio positivo en un control antidopaje antiguo. Bolt, que siempre defendió un atletismo limpio en una época manchada por las trampas, devolvió aquella medalla sin una queja. Y esa dignidad, la de aceptar la pérdida por culpa de otro, dice tanto de él como sus récords.\n\nCuando se retiró, su última carrera salió mal: una lesión muscular lo tumbó en plena pista, y tuvo que terminar cojeando, ayudado por sus rivales. No fue el final de cuento que todos querían. Pero fíjate en cómo lo vivió él. No hubo dramas ni lágrimas amargas. Sonrió, dio las gracias, saludó al público que coreaba su nombre. Sabía que un mal último día no borra una década de hacer historia.\n\nY ahí está la moraleja que quiero que te lleves. A Usain Bolt le dijeron que su cuerpo no servía para correr cien metros. Tenía la columna torcida, una pierna más corta, una altura que los expertos consideraban un defecto. En lugar de pelearse contra lo que era, aprendió a usarlo. Convirtió cada supuesta debilidad en su forma única de volar.\n\nPorque a veces eso que crees que es tu mayor desventaja, eso que te hace diferente y te incomoda, es justo el material del que está hecha tu grandeza. No tienes que encajar en el molde de los demás para ganar. A veces tienes que romperlo, sonreír, y correr a tu manera. Como hizo el hombre más rápido que ha existido jamás."
+    },
+    {
+      "id": "deporte-maradona",
+      "name": "Diego Maradona",
+      "title": "La mano de Dios y el genio más humano",
+      "era": "Siglo XX",
+      "coleccion": "deporte",
+      "tags": [
+        "Fútbol",
+        "Argentina",
+        "Leyenda",
+        "Polémica"
+      ],
+      "order": 3,
+      "duration": 399,
+      "image": "images/deporte-maradona.jpg",
+      "audio": {
+        "alvaro": "audio/deporte-maradona_alvaro.mp3"
+      },
+      "script": "Imagina que en apenas cuatro minutos, en el mismo partido, contra el mismo rival, un hombre comete el mayor engaño de la historia del fútbol y luego marca el gol más hermoso que se haya visto jamás. El delito y la obra maestra, casi seguidos, de la misma persona, en la misma tarde. Si te lo contaran como ficción, dirías que es demasiado. Pues ocurrió de verdad. Y el protagonista se llama Diego Armando Maradona, el genio más humano que ha dado este deporte.\n\nTe voy a contar de dónde salió, porque sin entender eso no se entiende nada. Diego nació en Villa Fiorito, un barrio pobre de las afueras de Buenos Aires, en una casa sin agua corriente. Eran muchos hermanos, dormían apretados, y de niño una noche cayó al pozo negro de la casa. Su tío lo sacó gritándole: Diego, mantén la cabeza arriba. Aquella frase, sacar la cabeza de la mierda, lo acompañó toda la vida como un símbolo. Porque de aquel barreal salió un chiquillo que hacía con la pelota cosas que nadie había visto.\n\nAquí va una curiosidad que pinta entero al personaje. Con apenas doce años, en los descansos de los partidos de primera división, sacaban al pequeño Diego al césped a hacer malabares con el balón para entretener al público. Y la gente, que había pagado por ver a los mayores, se quedaba embobada mirando al niño. Ya entonces hacía algo que el fútbol normal no podía explicar. La pelota no se le caía. Parecía atada a su pie con un hilo invisible.\n\nY ahora sí, vamos a México, mil novecientos ochenta y seis. Cuartos de final del Mundial. Argentina contra Inglaterra. Pero esto era mucho más que un partido. Cuatro años antes los dos países habían estado en guerra por las islas Malvinas, una guerra que dejó cientos de jóvenes argentinos muertos. Aquel campo de fútbol no era solo un campo. Era una herida abierta de todo un país. Y Diego lo sabía.\n\nPrimer gol. Un balón sube por el aire hacia el portero inglés. Maradona salta, y con el puño, disimulando, empuja la pelota a la red. Trampa pura y dura. El árbitro no lo ve y lo da por válido. Cuando después le preguntaron cómo había sido aquel gol, Diego soltó la frase que daría la vuelta al mundo: fue un poco con la cabeza de Maradona y otro poco con la mano de Dios. La mano de Dios. Un fraude convertido en mito por una sola frase genial.\n\nPero espera, porque cuatro minutos después llega lo otro. Maradona recibe el balón en su propio campo, de espaldas, rodeado. Y arranca. Gira sobre sí mismo y empieza a correr esquivando ingleses como si fueran conos de entrenamiento. Uno, dos, tres, cuatro, cinco rivales y el portero. Sesenta metros de carrera, él solo, con la pelota pegada al pie, y la deposita dentro de la portería. El mundo entero se puso de pie. Lo han votado muchas veces como el mejor gol de la historia de los mundiales. El gol del siglo.\n\nY ahí tienes a Maradona entero en una sola tarde: el tramposo y el artista, el pícaro de barrio y el genio sublime. No puedes quedarte solo con una mitad. Era las dos cosas a la vez, y por eso lo amaron tanto.\n\nTe voy a contar lo que hizo en Nápoles, porque es quizá lo más grande y lo menos conocido fuera de Italia. Cuando Maradona llegó, el Nápoles era un equipo modesto del sur pobre de Italia, despreciado por el rico norte del país. En los estadios del norte les cantaban cosas humillantes, los llamaban africanos, les decían que olían mal. Y entonces aquel argentino bajito agarró al equipo entero sobre sus hombros y lo llevó a ganar dos veces el campeonato italiano, algo que jamás habían logrado y que no han vuelto a lograr en muchísimo tiempo después de él. Para Nápoles, Diego no fue un futbolista. Fue un dios, un vengador, el hombre que les devolvió el orgullo. Todavía hoy hay murales suyos por toda la ciudad.\n\nPero sería deshonesto contarte solo la luz. Porque la misma intensidad con la que jugaba la puso en su propia destrucción. Maradona cayó en la cocaína, y esa adicción lo persiguió durante décadas, lo expulsó de mundiales, lo llevó al borde de la muerte más de una vez. Engordó, enfermó, peleó. Hubo un Maradona glorioso y un Maradona roto, y a veces convivían en la misma semana. Aquí no hay que esconder nada: el hombre que era un genio con los pies fue tremendamente frágil con su propia vida.\n\nY sin embargo, fíjate en lo curioso. Cuanto más caía, más lo quería la gente. Porque en sus errores, en sus excesos, en sus fragilidades, millones de personas humildes se veían reflejadas. Diego no era el héroe perfecto e inalcanzable. Era uno de ellos, un chaval pobre que llegó a lo más alto sin dejar de meter la pata, sin dejar de ser de barrio. Lloraba en público, decía barbaridades, abrazaba a la gente. Era profundamente humano, con todo lo bueno y lo malo que eso significa.\n\nCuando murió, en dos mil veinte, Argentina entera se paró. Hubo tres días de luto nacional. Una multitud inabarcable quiso despedirlo. No despedían a un deportista. Despedían a alguien que sentían de la familia.\n\nY aquí está la moraleja, que no es la que esperas. No te voy a decir que seas como Maradona, porque su vida también fue un aviso de hacia dónde te puede arrastrar el talento sin frenos. La lección es otra, más delicada. Diego nos enseñó que la grandeza y la fragilidad caben en la misma persona, que se puede ser sublime y un desastre, que ningún ser humano es solo su mejor jugada ni solo su peor caída.\n\nLo amaron no a pesar de sus defectos, sino con ellos incluidos. Y quizá eso sea lo más difícil de aprender: que merecer cariño no exige ser perfecto. Que también la gente rota, la que se equivoca a lo grande, puede dejar en el mundo algo tan hermoso como aquel gol imposible corriendo sesenta metros con la pelota atada al pie."
+    },
+    {
+      "id": "deporte-muhammad-ali",
+      "name": "Muhammad Ali",
+      "title": "El boxeador que ganó su mayor pelea fuera del ring",
+      "era": "Siglo XX",
+      "coleccion": "deporte",
+      "tags": [
+        "Boxeo",
+        "Estados Unidos",
+        "Activismo",
+        "Leyenda"
+      ],
+      "order": 4,
+      "duration": 399,
+      "image": "images/deporte-muhammad-ali.jpg",
+      "audio": {
+        "alvaro": "audio/deporte-muhammad-ali_alvaro.mp3"
+      },
+      "script": "Te voy a contar la historia de un hombre que ganó las peleas más importantes de su vida sin lanzar un solo puñetazo. Un boxeador, el más famoso del mundo, cuyo combate definitivo no se libró en un ring, sino en un tribunal, contra su propio país, y arriesgándolo absolutamente todo. Su nombre era Muhammad Ali, y para entenderlo hay que empezar por una bicicleta robada.\n\nImagina a un niño de doce años en Kentucky, en los años cincuenta. Le acaban de robar la bicicleta nueva y está furioso, llorando de rabia. Encuentra a un policía y le grita que cuando atrape al ladrón le va a dar una paliza. El policía, que entrenaba boxeo en un gimnasio, le mira y le dice algo así como: antes de pegar a nadie, será mejor que aprendas a pelear. Y se lo lleva al gimnasio. Aquella bicicleta robada metió a Cassius Clay, que así se llamaba entonces, en el mundo del boxeo. A veces el destino entra por la puerta de una pequeña injusticia.\n\nEl chaval resultó tener un don que rompía todas las reglas. Era un peso pesado, un gigante, pero se movía por el ring como un peso ligero, bailando, esquivando golpes echando la cabeza hacia atrás de un modo que los entrenadores consideraban suicida. Él mismo lo resumió en una frase que se hizo legendaria: flota como una mariposa, pica como una abeja. Y antes de cada combate hablaba sin parar, recitaba versos, anunciaba en qué asalto iba a ganar, se llamaba a sí mismo el más grande. La gente lo odiaba por chulo. Pero luego subía al ring y cumplía.\n\nEn mil novecientos sesenta y cuatro, siendo un jovencísimo aspirante, se enfrentó a Sonny Liston, un campeón temible al que todos consideraban invencible. Nadie daba un duro por Clay. Y le ganó. Se convirtió en campeón del mundo gritando a las cámaras que él lo había dicho, que era el más grande, que había sacudido el mundo. Y poco después hizo algo que sacudió a su país mucho más que cualquier golpe: anunció que se había unido a la Nación del Islam, que rechazaba su nombre por ser un nombre de esclavos, y que a partir de entonces se llamaría Muhammad Ali.\n\nPara que entiendas lo que eso significaba, ponte en aquella América. Un país profundamente racista, donde un hombre negro debía dar las gracias y callar. Y de pronto el campeón del mundo, el deportista más visible, plantaba cara, cambiaba de nombre, de religión, y reivindicaba con orgullo ser negro. Muchos no se lo perdonaron jamás. Pero lo de verdad gordo estaba por llegar.\n\nMil novecientos sesenta y siete. La guerra de Vietnam. Llaman a Ali a filas para ir a combatir. Y él se niega. Dice que su conciencia y su religión le impiden ir a matar a gente al otro lado del mundo, gente que a él nunca le había hecho nada, mientras en su propio país a los negros se les negaban derechos básicos. Lo dijo con una frase demoledora: ningún vietnamita me ha llamado nunca por una palabra racista.\n\nImagina ahora el precio que pagó. Le quitaron el título mundial de inmediato. Le retiraron la licencia para boxear en todo el país. Lo procesaron y lo condenaron a cinco años de cárcel. Le confiscaron el pasaporte. En el mejor momento de su vida deportiva, entre los veinticinco y los veintinueve años, cuando un boxeador está en su plenitud absoluta, a Muhammad Ali no se le permitió pelear. Le robaron casi cuatro años de carrera. Lo insultaron, lo llamaron traidor, lo amenazaron. Y él, que podría haber pedido perdón y recuperarlo todo, no se retractó ni un milímetro.\n\nEsa fue su mayor pelea. No contra un boxeador, sino contra el Estado más poderoso del planeta, defendiendo una idea. Y aquí está lo extraordinario: la ganó. Años después, el Tribunal Supremo de Estados Unidos le dio la razón por unanimidad y anuló su condena. Había arriesgado su libertad, su fortuna y su carrera por un principio, y al final la historia se puso de su lado.\n\nCuando por fin pudo volver al ring, ya no era aquel bailarín imparable. Había perdido sus mejores años. Pero protagonizó algunos de los combates más épicos jamás vistos. En mil novecientos setenta y cuatro, en pleno corazón de África, en Zaire, se enfrentó a George Foreman, un monstruo que pegaba como nadie y que era muy favorito. Ali, mucho mayor, inventó una táctica que parecía una locura: se apoyó en las cuerdas y dejó que Foreman le golpeara una y otra vez, asalto tras asalto, agotándolo. Y cuando el gigante ya no podía con su alma, Ali se levantó y lo tumbó. Volvió a ser campeón del mundo cuando todos lo daban por acabado.\n\nTe voy a contar el final, porque también enseña. El boxeo le pasó factura. Los miles de golpes recibidos le provocaron el párkinson, una enfermedad que le fue apagando el cuerpo y le robó aquella voz que nunca callaba. Y aquí ocurrió la imagen más conmovedora de su vida. En los Juegos Olímpicos de mil novecientos noventa y seis, eligieron a Ali para encender la llama. Apareció ante el mundo entero, temblando por la enfermedad, sosteniendo la antorcha con un pulso que ya no controlaba. Y el estadio entero, en silencio, conteniendo el aliento, lo vio encenderla. Aquel hombre que se había enfrentado a un imperio temblaba, pero seguía de pie.\n\nY aquí está la moraleja que quiero dejarte. Muhammad Ali fue un boxeador genial, sí, uno de los mejores de todos los tiempos. Pero no lo recordamos solo por los golpes. Lo recordamos porque entendió que hay cosas que valen más que ganar, más que el dinero, más que la fama. Estuvo dispuesto a perderlo todo por no traicionar lo que creía justo.\n\nEs fácil tener principios cuando no cuestan nada. Lo difícil, lo verdaderamente grande, es mantenerlos cuando te van a costar la libertad, la riqueza y la gloria. Ali nos enseñó que la mayor victoria de una persona no siempre es la que aplaude el público, sino la que defiende su conciencia cuando todo el mundo le exige que se rinda. Y esa, esa la ganó por nocaut."
+    },
+    {
+      "id": "deporte-jesse-owens",
+      "name": "Jesse Owens",
+      "title": "Las cuatro medallas que humillaron a Hitler",
+      "era": "Siglo XX",
+      "coleccion": "deporte",
+      "tags": [
+        "Atletismo",
+        "Juegos Olímpicos",
+        "Racismo",
+        "Hazaña"
+      ],
+      "order": 5,
+      "duration": 428,
+      "image": "images/deporte-jesse-owens.jpg",
+      "audio": {
+        "alvaro": "audio/deporte-jesse-owens_alvaro.mp3"
+      },
+      "script": "Imagina un estadio gigantesco, lleno hasta arriba, banderas con la cruz gamada por todas partes. En la tribuna principal está Adolf Hitler en persona, y ha organizado estos Juegos Olímpicos para una sola cosa: demostrar al mundo entero que la raza aria es superior, que los demás son inferiores. Y ahora imagina que el hombre que arruina por completo ese espectáculo, el que se lleva a casa el día más glorioso de aquellos Juegos, es un nieto de esclavos, un atleta negro estadounidense. Se llamaba Jesse Owens, y te voy a contar cómo, corriendo y saltando, dejó en ridículo a la maquinaria de propaganda más siniestra de la historia.\n\nPrimero, de dónde venía. Jesse era nieto de esclavos e hijo de aparceros pobres del sur de Estados Unidos, en Alabama. De niño era enfermizo, frágil, con problemas de pulmón. La familia se mudó al norte buscando una vida mejor, y allí un profesor de educación física se fijó en cómo corría aquel chaval flaco. Hay una curiosidad bonita en su nombre. En realidad se llamaba James Cleveland, J. C., y cuando se presentó en su nueva escuela y dijo con su acento del sur jeisí, la maestra entendió Jesse. Y Jesse se quedó para siempre. Su nombre legendario nació de un malentendido.\n\nTe voy a contar algo que demuestra de qué pasta estaba hecho, y que ocurrió antes incluso de los Juegos. En una competición universitaria, en mil novecientos treinta y cinco, Owens llegó con la espalda lesionada, tan dolorido que apenas podía agacharse. Pues bien: en apenas cuarenta y cinco minutos batió tres récords del mundo e igualó un cuarto. Tres récords mundiales y uno igualado, en menos de una hora, lesionado. Muchos lo consideran los cuarenta y cinco minutos más extraordinarios en la historia del deporte. Ningún atleta ha vuelto a hacer algo parecido.\n\nY entonces llegaron los Juegos de Berlín, en mil novecientos treinta y seis. El régimen nazi lo tenía todo preparado como un escaparate de su ideología. Aquello no era solo deporte: era propaganda a escala mundial. Y en ese escenario, ante Hitler, Jesse Owens hizo lo siguiente. Ganó la medalla de oro en los cien metros. Ganó el oro en los doscientos metros. Ganó el oro en el relevo. Y ganó el oro en salto de longitud. Cuatro medallas de oro. Un hombre negro convirtiéndose en la estrella absoluta de los Juegos que debían glorificar la supremacía aria. La ironía era tan perfecta que parece inventada.\n\nAhora viene la parte donde tengo que derribar un mito, porque la historia se ha contado de forma falsa durante décadas. Se suele decir que Hitler, furioso, se negó a estrechar la mano de Owens y abandonó el estadio para no felicitar a un negro. Es una buena historia, pero no es exactamente lo que pasó. El primer día, Hitler había estado saludando a los ganadores, pero el comité olímpico le dijo que, o saludaba a todos, o a ninguno. Así que a partir de entonces dejó de felicitar públicamente a cualquier atleta. Owens no fue desairado en concreto. Pero hay un detalle que el propio Jesse contó y que es mucho más demoledor.\n\nPorque Owens dijo algo que pocos esperan oír. Contó que Hitler, a su manera, hasta lo saludó con un gesto desde la tribuna. Y luego añadió la frase que de verdad duele: cuando volví a casa, a Estados Unidos, no podía viajar en la parte delantera del autobús. Tenía que entrar por la puerta de atrás. No me invitaron a la Casa Blanca a estrechar la mano del presidente. El desprecio de verdad, decía Jesse, no se lo hizo Hitler en Alemania. Se lo hizo su propio país al regresar a casa como héroe.\n\nDetente ahí un segundo, porque es brutal. El hombre que había humillado al nazismo ante el mundo, al volver a la tierra que representaba, seguía siendo un ciudadano de segunda por el color de su piel. El presidente no lo recibió. No hubo honores oficiales. Y Owens, para ganarse la vida, tuvo que hacer cosas humillantes: lo contrataban para correr en exhibiciones contra caballos de carreras, contra perros, contra motos, como una atracción de feria. El mejor atleta del planeta, echando carreras contra caballos para poder pagar las facturas.\n\nPero quiero contarte la historia más hermosa de Berlín, porque dice más sobre el ser humano que todas las medallas. En la prueba de salto de longitud, Owens estuvo a punto de quedar eliminado: cometió dos saltos nulos y le quedaba uno. Estaba bloqueado, nervioso. Y entonces se le acercó su gran rival, el saltador alemán Luz Long, el modelo perfecto de la propaganda nazi, rubio y de ojos azules. Long, en lugar de aprovecharse, le dio un consejo: que saltara con margen, que se relajara. Owens le hizo caso, se clasificó y acabó ganando el oro, por delante del propio Long. ¿Y qué hizo el alemán? Fue el primero en abrazarlo y felicitarlo, delante de todo el estadio, delante de Hitler.\n\nImagina el valor de aquel gesto. En la Alemania nazi, un atleta alemán abrazando en público a un rival negro, ayudándolo a ganar. Owens dijo después que podrían fundir todas sus medallas y no harían un baño de oro comparable a la amistad que sintió por Luz Long en ese momento. Long murió pocos años después en la guerra. Pero aquella amistad, nacida en el corazón mismo del odio, sobrevivió a todo.\n\nY aquí está la moraleja, que tiene dos caras. La primera es la evidente: Jesse Owens demostró, con hechos y no con discursos, que las teorías sobre razas superiores son una mentira ridícula. No lo refutó con palabras, lo refutó corriendo más rápido que nadie ante los ojos del hombre que predicaba esa mentira. A veces la mejor respuesta al odio no es gritar más fuerte, sino ser, sencillamente, excelente.\n\nPero hay una segunda lección, más incómoda y más honesta. El racismo que Owens combatió en Berlín no estaba solo en Alemania. Estaba también en casa, esperándolo. Y eso nos recuerda que es muy fácil señalar el mal lejano, en el enemigo, y muy difícil mirar el que tenemos dentro. Jesse Owens corrió contra Hitler y ganó. Pero la verdadera carrera, la de la dignidad y la igualdad, siguió librándose mucho después, en su propio país, en autobuses y en restaurantes. Que sus cuatro medallas te recuerden las dos cosas a la vez: que el talento derriba prejuicios, y que el espejo más difícil de mirar siempre es el de casa."
+    },
+    {
+      "id": "eventos-caida-roma",
+      "name": "La caída de Roma",
+      "title": "Cómo murió el imperio más grande de la historia",
+      "era": "Siglo V",
+      "coleccion": "eventos",
+      "tags": [
+        "Roma",
+        "Imperio",
+        "Bárbaros",
+        "Antigüedad"
+      ],
+      "order": 1,
+      "duration": 450,
+      "image": "images/eventos-caida-roma.jpg",
+      "audio": {
+        "alvaro": "audio/eventos-caida-roma_alvaro.mp3"
+      },
+      "script": "Imagina que vives en la ciudad más poderosa que ha existido jamás. Una ciudad de un millón de habitantes cuando ninguna otra del mundo pasaba de cien mil. Tienes agua corriente, calefacción en el suelo, baños públicos de mármol, calzadas que llegan hasta el desierto. Llevas siglos diciéndote que Roma es eterna, que el imperio no tiene fin, que los dioses la protegen. Y un día de agosto del año cuatrocientos diez, un ejército de bárbaros entra por las puertas y la saquea durante tres días. Por primera vez en casi ochocientos años, Roma cae en manos enemigas. Y lo más inquietante es que casi nadie lo vio venir.\n\nPero aquí está la primera sorpresa, y conviene que la entiendas bien antes de seguir. Roma no cayó de golpe. No hubo un solo día, ni una sola batalla, ni un héroe enemigo cargando contra las murallas mientras suena la música épica. La caída del Imperio romano de Occidente fue un proceso lento, casi silencioso, que duró más de un siglo. Tan lento que la mayoría de los romanos que lo vivieron ni siquiera supieron que estaban presenciando el final de su mundo. Creían que era una mala racha. Creían que se arreglaría. No se arregló.\n\nPara entender lo que estaba en juego, retrocede un poco. En su mejor momento, Roma dominaba desde Escocia hasta Egipto, desde el Atlántico hasta el actual Irak. Un imperio tan grande que para gobernarlo lo partieron en dos: el de Occidente, con capital cerca de Roma, y el de Oriente, con capital en Constantinopla. Y aquí viene un dato que casi nadie tiene claro: cuando hablamos de la caída de Roma, hablamos solo de la mitad occidental. La mitad oriental siguió viva mil años más. Así que el imperio no murió entero. Murió una de sus dos cabezas.\n\nEntonces, ¿qué falló? Imagina una casa enorme con grietas por todas partes. Por un lado, el dinero. Mantener un ejército gigantesco y una burocracia infinita costaba una fortuna, y los emperadores subían los impuestos hasta asfixiar a sus propios ciudadanos. Mucha gente prefería huir al campo y ponerse bajo la protección de un terrateniente antes que seguir pagando a un Estado que ya no los protegía. Por otro lado, la política. En el último siglo del imperio hubo decenas de emperadores, muchos asesinados por sus propios soldados. Un trono que cambiaba de dueño cada pocos años no podía planificar nada a largo plazo.\n\nY luego estaban los pueblos del otro lado de la frontera, a los que los romanos llamaban bárbaros. Pero ojo con el mito, porque aquí derribamos uno de los grandes. Estos pueblos, godos, vándalos, suevos, no eran hordas salvajes que odiaban Roma y querían destruirla. Al contrario. La admiraban. Querían entrar, no arrasarla. Muchos huían de un enemigo aún más temible que venía empujando desde el este: los hunos de Atila. Lo que querían los godos era un pedazo de tierra dentro del imperio donde vivir en paz. Roma se lo prometió, y luego los traicionó y los dejó morir de hambre. Y un pueblo humillado y hambriento dentro de tus fronteras es la peor idea posible.\n\nEse fue el detonante real. En el año trescientos setenta y ocho, los godos, desesperados, se rebelaron y aplastaron al ejército romano en la batalla de Adrianópolis. Murió hasta el emperador. Fue un golpe del que Roma nunca se recuperó del todo. A partir de ahí, los pueblos extranjeros ya no pedían permiso: entraban. Y cuando Alarico, el rey godo, saqueó Roma en el cuatrocientos diez, el mundo entero tembló. San Jerónimo, que estaba lejos, en Belén, escribió que la luz del mundo se había apagado.\n\nPero la fecha que los libros marcan como el final no es esa. Es el año cuatrocientos setenta y seis. Y aquí está la curiosidad más amarga de toda esta historia. El último emperador de Roma, el que cierra ochocientos años de imperio, era un adolescente. Se llamaba Rómulo Augústulo. Fíjate en la ironía: el primer rey de Roma se llamó Rómulo, y el primer emperador se llamó Augusto. El último niño emperador llevaba los dos nombres a la vez, como una broma cruel del destino. Un general bárbaro llamado Odoacro lo depuso sin apenas violencia, le perdonó la vida e incluso le dio una pensión. Y luego hizo algo revelador: no se proclamó emperador. Mandó las insignias imperiales a Constantinopla y dijo, en esencia, que Occidente ya no necesitaba un emperador propio. El trono no fue conquistado. Simplemente se apagó. Nadie se molestó en volver a encenderlo.\n\nImagina la escena. No hubo batalla final, ni murallas ardiendo, ni un último discurso heroico. Un chaval firma su abdicación, se retira a una villa en el campo, y con eso termina el imperio que había durado más que cualquier otro de Occidente. La gente de las calles de Roma probablemente ni se enteró de que aquel día había cambiado la historia para siempre.\n\nY aquí viene lo que casi nadie sabe. La vida cotidiana no cambió de un día para otro. Quienes vivían en la Galia o en Hispania siguieron hablando latín, siguieron usando las leyes romanas, siguieron yendo a las mismas iglesias. Los reyes bárbaros se vestían como senadores romanos, copiaban las monedas romanas y soñaban con ser romanos. Roma no desapareció: se disolvió poco a poco en los reinos que vinieron después. El latín mutó hasta convertirse en el español que tú hablas ahora mismo. El derecho romano sigue siendo la base de casi todas las leyes europeas. En cierto sentido, Roma no murió del todo. Se transformó en nosotros.\n\nLo que sí se perdió fue algo más difícil de tocar: la idea de que existía un orden único, una autoridad central, una paz garantizada del Atlántico al desierto. Eso se rompió en mil pedazos, y Europa tardó más de mil años en intentar recomponerlo. Las calzadas se llenaron de hierba, los acueductos se secaron, las grandes ciudades se vaciaron. La población de la ciudad de Roma pasó de un millón de personas a apenas unos miles. Donde antes había baños de mármol, pastaban ovejas.\n\nY aquí está la moraleja, que conviene que te lleves grabada. Ningún poder es eterno, por muy invencible que parezca. Roma no cayó porque un enemigo fuera más fuerte. Cayó porque se desangró por dentro: dejó de cuidar a su propia gente, se enredó en luchas de poder, gastó por encima de sus fuerzas y trató como enemigos a quienes solo querían formar parte de ella. Los imperios rara vez mueren de un golpe espectacular. Mueren de mil descuidos pequeños que nadie quiso arreglar a tiempo. Y el día que de verdad cae el más grande de todos, casi nadie se da cuenta de que el mundo acaba de cambiar para siempre."
+    },
+    {
+      "id": "eventos-revolucion-francesa",
+      "name": "La Revolución Francesa",
+      "title": "El día que el pueblo le cortó la cabeza al rey",
+      "era": "Siglo XVIII",
+      "coleccion": "eventos",
+      "tags": [
+        "Francia",
+        "Revolución",
+        "Monarquía",
+        "Libertad"
+      ],
+      "order": 2,
+      "duration": 469,
+      "image": "images/eventos-revolucion-francesa.jpg",
+      "audio": {
+        "alvaro": "audio/eventos-revolucion-francesa_alvaro.mp3"
+      },
+      "script": "Imagina que tienes hambre. No el hambre de quien se ha saltado una comida, sino la de quien lleva años pagando más de la mitad de lo que gana en impuestos y aun así no le llega para el pan. Imagina que vives en el país más rico y brillante de Europa, el país de los palacios dorados y los filósofos, y que tú y tus hijos pasáis frío y hambre mientras a pocos kilómetros una reina se gasta una fortuna en vestidos. Ahora imagina que un día decides que ya basta. Ese día, en el verano de mil setecientos ochenta y nueve, empezó a temblar el suelo bajo el trono más antiguo de Europa.\n\nPero antes de las cabezas cortadas, conviene entender qué estaba en juego. Francia era una sociedad partida en tres. Arriba, el clero. Justo debajo, la nobleza. Y abajo, todos los demás: campesinos, comerciantes, abogados, artesanos. Ese tercer grupo, el llamado tercer estado, era el noventa y siete por ciento de la población. Pagaban casi todos los impuestos. Y no pintaban nada en las decisiones. Los otros dos grupos, una minúscula minoría, estaban casi exentos de pagar y mandaban en todo. Imagina jugar una partida en la que tú pones el dinero y otros deciden las reglas. Tarde o temprano, alguien vuelca el tablero.\n\nEl detonante fue, en el fondo, una crisis de dinero. Francia estaba en bancarrota, en parte por haber ayudado a los rebeldes americanos contra Inglaterra. El rey Luis dieciséis, un hombre indeciso y bienintencionado al que le gustaba más la cerrajería que gobernar, no tenía cómo pagar las deudas. Así que convocó una vieja asamblea que llevaba ciento setenta y cinco años sin reunirse, esperando que aprobaran nuevos impuestos. Fue su gran error. Al juntar a los representantes del pueblo, les dio por primera vez en mucho tiempo un sitio donde hablar. Y descubrieron que eran muchos.\n\nEl catorce de julio de mil setecientos ochenta y nueve, el pueblo de París asaltó una vieja fortaleza prisión llamada la Bastilla, buscando pólvora y armas. Y aquí va el primer mito que hay que derribar. La toma de la Bastilla se cuenta como la liberación de una cárcel llena de presos políticos torturados. La realidad es más modesta: dentro había solo siete prisioneros, ninguno demasiado importante, y unos cuantos cañones. Pero no importaba lo que había dentro. Importaba lo que significaba. La Bastilla era el símbolo del poder absoluto del rey, la prueba de que podía encerrar a quien quisiera. Y el pueblo la derribó con sus propias manos. Esa imagen dio la vuelta al mundo. Cuando le contaron al rey lo ocurrido, preguntó si era una revuelta. Le respondieron: no, majestad, es una revolución.\n\nA partir de ahí, todo se aceleró de un modo vertiginoso. La asamblea abolió los privilegios de la nobleza en una sola noche. Proclamó la Declaración de los Derechos del Hombre, con una idea explosiva para la época: que todos los hombres nacen libres e iguales en derechos. Piénsalo. Hasta entonces, naciste lo que tu padre fue. Si tu padre era siervo, tú eras siervo. De repente, sobre el papel, todos valían lo mismo. Esa frase cambió el mundo más que cualquier cañón.\n\nPero una revolución es difícil de frenar una vez que arranca. El rey, en lugar de adaptarse, intentó huir del país disfrazado con su familia. Lo reconocieron y lo trajeron de vuelta como a un prisionero. Aquella fuga lo condenó: demostró que el rey no estaba con su pueblo, sino contra él. Y aquí viene el giro más oscuro de toda la historia.\n\nLos revolucionarios más radicales, liderados por un hombre frío y meticuloso llamado Robespierre, decidieron que la única forma de salvar la revolución era el terror. Así lo llamaron, sin disimulo: el Terror. Cualquiera sospechoso de no ser bastante revolucionario podía acabar en el cadalso. Y el instrumento de aquella época fue una máquina que conviene mirar de frente: la guillotina. Aquí va una curiosidad que pone los pelos de punta. La guillotina se inventó, en teoría, por humanidad. Antes, a los nobles los decapitaban con espada y a los plebeyos los ahorcaban o algo peor, y un verdugo torpe podía tardar varios golpes. La guillotina prometía una muerte igual para todos, rápida e indolora. Nació como un símbolo de igualdad. Y acabó convertida en un símbolo de horror.\n\nEn enero de mil setecientos noventa y tres, el rey Luis dieciséis subió a esa máquina. El pueblo que durante mil años se había arrodillado ante sus reyes vio rodar la cabeza de uno de ellos en una plaza pública. Meses después le tocó a la reina, María Antonieta. Y aquí otro mito que cae. Probablemente nunca dijo aquello de que si el pueblo no tiene pan, que coma pasteles. No hay ninguna prueba de que pronunciara esa frase; ya circulaba por Europa décadas antes. Pero encajaba tan bien con la imagen de una reina ajena al sufrimiento de su gente que se le pegó para siempre. A veces una mentira bien contada es más fuerte que la verdad.\n\nLo más inquietante del Terror es cómo terminó. La máquina de matar se volvió tan voraz que empezó a devorar a los propios revolucionarios. Acusaban a unos, los ejecutaban, y los siguientes acusaban a los anteriores. Hasta que le llegó el turno al mismísimo Robespierre, el hombre que había firmado tantas sentencias. En julio de mil setecientos noventa y cuatro, sus propios compañeros lo enviaron a la misma guillotina a la que había mandado a tantos. La revolución se comió a sus hijos.\n\nDel caos surgió, años después, un joven general ambicioso que prometía orden y gloria: Napoleón Bonaparte. Acabó coronándose emperador. Y aquí está la gran paradoja que conviene saborear. Una revolución que empezó para acabar con un rey terminó poniendo en el trono a un emperador con más poder que cualquier rey anterior. El círculo, en cierto modo, se cerró.\n\nEntonces, ¿fracasó la Revolución Francesa? En lo inmediato, quizá. Hubo caos, sangre y un nuevo amo. Pero las ideas que liberó ya no se pudieron meter de nuevo en la botella. La igualdad ante la ley, la idea de que el poder viene del pueblo y no de Dios, los derechos del individuo: todo eso se extendió por el mundo y sigue siendo la base de las democracias en las que hoy vives. La bandera tricolor, el lema de libertad, igualdad y fraternidad, nacieron en aquellos años de fuego.\n\nY aquí está la moraleja. Cuando un poder ignora durante demasiado tiempo el hambre y la dignidad de la gente, no construye estabilidad: construye un polvorín. Pero cuidado también con la otra cara de la lección. La búsqueda de un mundo justo puede deslizarse, sin darse cuenta, hacia el fanatismo, hasta que los que querían liberar al pueblo terminan aterrorizándolo. La libertad y el terror, durante aquellos años, vivieron en la misma plaza, separados solo por unos pocos pasos. Y aprender a distinguirlos sigue siendo, todavía hoy, una de las tareas más difíciles de cualquier sociedad."
+    },
+    {
+      "id": "eventos-titanic",
+      "name": "El hundimiento del Titanic",
+      "title": "El barco que no se podía hundir",
+      "era": "Siglo XX",
+      "coleccion": "eventos",
+      "tags": [
+        "Naufragio",
+        "Tragedia",
+        "Atlántico",
+        "1912"
+      ],
+      "order": 3,
+      "duration": 436,
+      "image": "images/eventos-titanic.jpg",
+      "audio": {
+        "alvaro": "audio/eventos-titanic_alvaro.mp3"
+      },
+      "script": "Imagina que subes al barco más grande jamás construido. Tiene la altura de un edificio de once pisos y la longitud de tres campos de fútbol. Dentro hay una escalinata de roble, un gimnasio, una piscina climatizada, una orquesta. La prensa lo ha bautizado como el barco insumergible, el que ni Dios podría hundir. Pisas su cubierta una fría noche de abril y sientes que estás a salvo, que has subido al futuro. No tienes ni idea de que, en menos de tres horas, ese coloso estará en el fondo del océano y mil quinientas personas habrán muerto en el agua helada.\n\nEsa es la fuerza brutal de la historia del Titanic: la distancia abismal entre lo que la gente creía aquella noche y lo que de verdad estaba a punto de pasar. Pero antes de que el barco choque, conviene entender por qué este naufragio, entre los cientos que ha habido, se convirtió en el más famoso de todos.\n\nEl Titanic era la joya de su época, el año mil novecientos doce. Pertenecía a una compañía británica que competía por dominar la ruta entre Europa y Estados Unidos, la autopista del mundo de entonces. Llevar emigrantes y millonarios de un lado a otro del Atlántico era un negocio gigantesco. Y el Titanic era la gran apuesta: no el más rápido, pero sí el más grande, el más lujoso, el más seguro. Tenía un casco con dieciséis compartimentos estancos que, en teoría, podían sellarse en caso de vía de agua. Los ingenieros decían que el barco podía flotar aunque cuatro de esos compartimentos se inundaran. Por eso muchos lo daban por insumergible.\n\nY aquí va el primer detalle que casi nadie sabe. La compañía nunca dijo oficialmente que el barco fuera insumergible. Esa idea la fabricaron los periódicos y la repitió la gente hasta convertirla en verdad. Fue una leyenda que el público quiso creer. Y precisamente esa fe ciega en la tecnología fue una de las causas de la tragedia. Porque cuando todos creen que algo no puede fallar, nadie se prepara para el día en que falla.\n\nEl catorce de abril, el Titanic navegaba a casi toda máquina por el Atlántico Norte. Había recibido varios avisos por radio de otros barcos: cuidado, hay hielo en la zona. Pero la noche era despejada, el mar estaba liso como un espejo y se quería batir un buen tiempo de travesía. Así que no se redujo apenas la velocidad. Aquí aparece otra cruel casualidad. Aquella noche no había luna, y el mar en calma significaba que no había olas rompiendo contra los icebergs. Sin espuma blanca en la base, un iceberg en la oscuridad es casi invisible hasta que lo tienes encima.\n\nA las once y cuarenta de la noche, el vigía lo vio. Una montaña de hielo surgiendo de la nada, justo delante. Tocó la campana, avisó al puente. El oficial ordenó virar y parar máquinas. El barco empezó a girar, casi lo esquiva. Y ahí está la paradoja más amarga de toda la historia. Si el Titanic hubiera chocado de frente contra el iceberg, probablemente se habría abollado la proa y habría seguido a flote. Pero al intentar esquivarlo, el hielo rozó el costado y abrió una larga herida bajo la línea de flotación. El agua empezó a entrar en seis compartimentos a la vez. Y el barco solo podía sobrevivir con cuatro inundados. El intento de salvarse fue justo lo que lo condenó.\n\nDurante un rato, mucha gente no se lo tomó en serio. ¿Cómo iba a hundirse el insumergible? Algunos pasajeros jugaban con los trozos de hielo que habían caído en cubierta. La orquesta seguía tocando para calmar los nervios. Tardaron en darse cuenta de que la cubierta se inclinaba.\n\nY entonces llegamos al dato más escalofriante de todos. El Titanic llevaba botes salvavidas solo para algo más de la mitad de las personas que iban a bordo. No porque se les olvidaran, sino porque las leyes de la época eran absurdas: exigían un número de botes según el peso del barco, no según los pasajeros. Y como el Titanic se consideraba tan seguro, los botes se veían casi como un adorno, una formalidad. De hecho, llevaba más botes de los que la ley exigía. El problema no fue saltarse las normas. El problema fue que las normas estaban completamente equivocadas, ancladas en un mundo que ya no existía.\n\nAquella noche, en la confusión, muchos botes se lanzaron medio vacíos. Se aplicó la norma de mujeres y niños primero, pero de forma caótica. Y aquí los números cuentan una verdad incómoda sobre la sociedad de entonces. Sobrevivió la inmensa mayoría de las mujeres y niños de primera clase. Pero murió la mayoría de los pasajeros de tercera, los emigrantes pobres que viajaban en las cubiertas inferiores, más cerca del agua y más lejos de los botes. Tu posibilidad de vivir esa noche dependía, en buena parte, de cuánto habías pagado por tu billete.\n\nHabía un barco, el Californian, detenido a pocos kilómetros, tan cerca que podían verse las luces. El Titanic disparó bengalas de socorro al cielo. Pero el operador de radio del otro barco se había ido a dormir, y nadie supo interpretar bien aquellas luces. La salvación estaba al alcance de la vista, y aun así no llegó a tiempo. El barco que sí acudió, el Carpathia, navegó a toda máquina en la oscuridad arriesgándose entre el hielo, pero tardó horas. Cuando llegó, solo quedaban los botes y un mar lleno de silencio.\n\nA las dos y veinte de la madrugada, el Titanic se partió y se hundió. Quienes cayeron al agua no murieron ahogados: murieron de frío en cuestión de minutos, en un mar a punto de congelarse. De las más de dos mil doscientas personas a bordo, solo se salvaron unas setecientas.\n\nLa tragedia cambió el mundo de verdad. A partir de entonces, la ley obligó a llevar botes para todos los pasajeros, sin excepción. Se crearon patrullas de hielo en el Atlántico que aún hoy vigilan la ruta. Y las radios de los barcos pasaron a funcionar las veinticuatro horas. Cada norma de seguridad marítima moderna lleva, en cierto modo, la sombra de aquel barco.\n\nY aquí está la moraleja. El Titanic no se hundió solo por un iceberg. Se hundió por un exceso de confianza. Por creer que la tecnología nos hacía invencibles, que las viejas precauciones ya no hacían falta, que el desastre era cosa de barcos peores. La verdadera causa del naufragio no fue el hielo: fue la arrogancia de pensar que algo hecho por el hombre no podía fallar. Y esa lección no caducó en mil novecientos doce. Cada vez que confiamos tanto en una máquina o en un sistema que dejamos de preguntarnos qué pasaría si fallara, estamos volviendo a subir, sin saberlo, a la cubierta del barco que no se podía hundir."
+    },
+    {
+      "id": "eventos-muro-berlin",
+      "name": "La caída del Muro de Berlín",
+      "title": "La noche que cayó el muro por un error",
+      "era": "Siglo XX",
+      "coleccion": "eventos",
+      "tags": [
+        "Alemania",
+        "Guerra Fría",
+        "Libertad",
+        "1989"
+      ],
+      "order": 4,
+      "duration": 447,
+      "image": "images/eventos-muro-berlin.jpg",
+      "audio": {
+        "alvaro": "audio/eventos-muro-berlin_alvaro.mp3"
+      },
+      "script": "Imagina que una mañana te despiertas y descubren que han partido tu ciudad en dos con alambre de espino. De un día para otro. Tu trabajo queda al otro lado. Tu hermana, que dormía en casa de una amiga, queda atrapada en el otro mundo. La parada de metro a la que ibas cada día está sellada. Y a lo largo de los años, ese alambre se convierte en un muro de hormigón de casi cuatro metros, con torres de vigilancia, perros y soldados con órdenes de disparar a quien intente cruzar. Eso le pasó de verdad a los habitantes de Berlín. Y lo más asombroso es cómo, casi treinta años después, ese muro cayó: no por una guerra, no por una bomba, sino por un error en una rueda de prensa.\n\nPero vayamos por orden, porque para entender por qué aquella noche fue tan increíble hay que entender qué era ese muro. Cuando terminó la Segunda Guerra Mundial, Alemania, que había perdido, quedó dividida entre los vencedores. Por un lado, los aliados occidentales: Estados Unidos, Reino Unido y Francia. Por otro, la Unión Soviética. Alemania se partió en dos países: la Alemania occidental, capitalista y democrática, y la oriental, comunista y bajo control soviético. Y la ciudad de Berlín, aunque quedaba dentro de la zona oriental, también se repartió. Así nació una isla absurda: Berlín occidental, un trozo de mundo libre rodeado por completo de territorio comunista.\n\nEl problema para el régimen oriental era sencillo y demoledor. La gente se iba. Cada año, cientos de miles de personas cruzaban a la parte occidental buscando libertad y una vida mejor. Y no eran cualquiera: muchos eran jóvenes, médicos, ingenieros, los que el país necesitaba. Era una hemorragia que desangraba a la Alemania oriental. Así que en agosto de mil novecientos sesenta y uno, en una sola noche, el régimen levantó una barrera para cerrar el paso. Para tapar la herida, construyeron un muro alrededor de su propia gente.\n\nY aquí conviene derribar un mito. Solemos imaginar el Muro de Berlín como una única pared. En realidad eran dos muros paralelos, y entre ambos había una franja a la que llamaban la franja de la muerte: un terreno despejado, iluminado de noche, con alambre, fosos y soldados apuntando. Quien lograba saltar el primer muro aún tenía que cruzar esa tierra de nadie a la vista de los guardias. A lo largo de los años, más de un centenar de personas murieron intentando cruzar. Algunos lo lograron de formas increíbles: en globos aerostáticos caseros, por túneles excavados durante meses, escondidos en el motor de un coche. La desesperación afila el ingenio.\n\nDurante casi tres décadas, ese muro fue el símbolo más claro de la Guerra Fría, esa tensión sin disparos directos entre el bloque comunista y el bloque occidental que mantuvo al mundo entero al borde de la guerra nuclear. El muro no separaba solo una ciudad: separaba dos formas opuestas de entender la vida.\n\nPero a finales de los años ochenta, el bloque comunista crujía por todas partes. La economía no funcionaba, la gente estaba harta, y en la Unión Soviética un líder llamado Gorbachov había abierto la mano y dejado de sostener a los regímenes vecinos por la fuerza. En toda Europa del Este la gente salía a la calle a pedir libertad. En la Alemania oriental, las manifestaciones eran cada vez más enormes. El régimen sentía que perdía el control y decidió hacer una concesión: relajar un poco las normas para viajar al extranjero, esperando calmar los ánimos.\n\nY aquí llega el momento más increíble, el giro que nadie habría escrito en una novela porque parecería demasiado absurdo. La tarde del nueve de noviembre de mil novecientos ochenta y nueve, un portavoz del gobierno llamado Günter Schabowski dio una rueda de prensa rutinaria. Tenía que anunciar las nuevas normas de viaje. El problema es que le habían pasado el papel a última hora y no se había enterado bien de los detalles. Un periodista le preguntó: ¿y cuándo entra en vigor esto? Schabowski, confundido, rebuscó entre sus papeles, dudó, y soltó la frase que cambió la historia: que él supiera, de inmediato, sin demora.\n\nNo era verdad. La medida estaba pensada para empezar al día siguiente, con un proceso ordenado de permisos. Pero la televisión ya lo había emitido. Y los berlineses orientales oyeron una sola cosa: la frontera está abierta, ya, ahora mismo. Miles de personas empezaron a caminar hacia los puestos de control del muro.\n\nImagina la escena desde el otro lado. Eres un guardia fronterizo. Llevas años con la orden de disparar a quien se acerque demasiado. Y de repente tienes delante a una multitud de miles de personas, creciendo cada minuto, gritando que las dejes pasar porque lo ha dicho la televisión. Llamas a tus superiores y nadie sabe qué hacer, porque nadie ha dado ninguna orden de abrir. Estás solo, con una muchedumbre enorme empujando contra la barrera. Y entonces, uno de aquellos oficiales, un hombre llamado Harald Jäger, tomó por su cuenta la decisión más valiente de la noche: levantar la barrera y dejar pasar a la gente, sin recibir orden alguna. Prefirió eso a ordenar disparar contra su propio pueblo.\n\nY el muro cayó. No a martillazos, todavía no, sino por la pura marea humana que cruzó aquella noche entre lágrimas y abrazos. Gente de los dos lados de la ciudad, separada durante veintiocho años, se encontró sobre el muro. Subieron encima, lo golpearon con martillos y picos, brindaron con champán. Familias rotas durante casi tres décadas se reabrazaron. Lo que durante una generación entera había parecido eterno e indestructible se desmoronó en una sola noche, empujado por gente desarmada y desencadenado por un malentendido en una rueda de prensa.\n\nMenos de un año después, las dos Alemanias volvieron a ser un solo país. Y en pocos años, todo el bloque comunista de Europa del Este se vino abajo y la Unión Soviética dejó de existir. La caída del muro fue el símbolo del final de la Guerra Fría, el momento en que medio mundo respiró pensando que una larga pesadilla había terminado.\n\nY aquí está la moraleja, que tiene dos caras. La primera: ningún muro, por alto que sea, puede contener para siempre el deseo de libertad de la gente. Puedes retrasarlo veintiocho años, pero no apagarlo. La segunda es más sutil y más humana. La historia no siempre la cambian los grandes planes ni los discursos solemnes. A veces gira por un papel mal leído, por una frase dicha sin pensar, por un guardia anónimo que, frente a una multitud, decide no disparar. Los muros más sólidos pueden caer por la grieta más pequeña. Y a veces basta con que una persona, en el momento justo, tenga el coraje de levantar la barrera."
+    },
+    {
+      "id": "eventos-constantinopla",
+      "name": "La caída de Constantinopla",
+      "title": "El cañón que acabó con el Imperio Bizantino",
+      "era": "Siglo XV",
+      "coleccion": "eventos",
+      "tags": [
+        "Bizancio",
+        "Otomanos",
+        "Asedio",
+        "1453"
+      ],
+      "order": 5,
+      "duration": 479,
+      "image": "images/eventos-constantinopla.jpg",
+      "audio": {
+        "alvaro": "audio/eventos-constantinopla_alvaro.mp3"
+      },
+      "script": "Imagina una ciudad que lleva mil años siendo invencible. Durante mil años, ejércitos enteros han chocado contra sus murallas y se han roto los dientes. Hunos, persas, árabes, búlgaros, todos lo intentaron, todos fracasaron. Sus muros son tan colosales, tan inteligentes, que se han convertido en una leyenda: tres líneas de defensa, un foso, torres cada pocos metros. Esa ciudad es Constantinopla, la última luz del Imperio romano, la capital más rica de la cristiandad. Y en la primavera de mil cuatrocientos cincuenta y tres, un sultán de veintiún años va a hacer lo que nadie había logrado en un milenio: derribar esas murallas. Y lo va a hacer con un invento nuevo que va a cambiar la guerra para siempre.\n\nPero antes de oír el rugido de los cañones, conviene entender qué estaba muriendo allí. Constantinopla era la capital del Imperio Bizantino, que en realidad era la continuación directa del Imperio romano. Cuando Roma cayó en Occidente, la mitad oriental siguió viva, hablando griego, mil años más, con su capital a orillas del Bósforo, el estrecho que separa Europa de Asia. Durante siglos fue la ciudad más poblada y deslumbrante de Europa, el puente entre Oriente y Occidente, la guardiana de la sabiduría antigua. Pero en el siglo quince ya era una sombra de sí misma. El imperio se había encogido tanto que prácticamente se reducía a la ciudad y poco más. Estaba rodeada por todas partes por un imperio joven, hambriento y en plena expansión: el Imperio otomano.\n\nAl frente de los otomanos estaba Mehmed segundo, un joven obsesionado con una idea: conquistar Constantinopla, la presa que se había resistido a todos. Y aquí aparece el protagonista inesperado de esta historia, que no es un guerrero, sino un arma. Mehmed contrató a un ingeniero, un fundidor de cañones llamado Urbano. Y aquí va una de las grandes ironías del relato. Urbano había ofrecido primero sus servicios al emperador bizantino, a los defensores. Pero estos eran tan pobres que no pudieron pagarle ni alimentarlo bien. Así que se fue con el enemigo, que le dio todo lo que pidió. El hombre que iba a destruir Constantinopla había llamado antes a su puerta ofreciéndose a defenderla.\n\nUrbano construyó para el sultán un cañón monstruoso, una bombarda gigantesca de varios metros de largo que disparaba bolas de piedra del tamaño de un hombre. Era tan enorme que hacían falta decenas de bueyes para arrastrarlo y tardaba horas en recargarse entre disparo y disparo. Pero su poder era inédito en la historia. Aquellas murallas que habían resistido mil años de catapultas y arietes no estaban pensadas para esto. La pólvora cambiaba las reglas del juego. Por primera vez, las piedras podían ceder.\n\nEl asedio empezó en abril de mil cuatrocientos cincuenta y tres. De un lado, un ejército otomano enorme, quizá ochenta mil hombres. Del otro, dentro de la ciudad, apenas unos siete mil defensores, incluidos algunos voluntarios italianos que acudieron a ayudar. Piensa en esa desproporción: más de diez contra uno. Al frente de la defensa estaba el último emperador, Constantino once, un hombre que sabía que tenía casi todo en contra y aun así decidió quedarse y luchar hasta el final.\n\nLos bizantinos tenían un truco maestro para proteger su puerto. Habían tendido una gigantesca cadena de hierro que cerraba la entrada de la bahía, impidiendo el paso de los barcos enemigos. Y funcionaba. La flota otomana no podía entrar. Hasta que Mehmed tuvo una idea tan audaz que parece sacada de una leyenda. Si no podía pasar por el agua, pasaría por tierra. En una sola noche, ordenó engrasar troncos de madera y arrastrar decenas de sus barcos por encima de una colina, por tierra firme, rodeando la cadena, para botarlos al otro lado dentro de la bahía. Los defensores se despertaron y vieron, atónitos, una flota enemiga donde la noche anterior no había nada. El golpe psicológico fue demoledor.\n\nDurante semanas, los cañones machacaron las murallas. De día abrían brechas; de noche, los defensores, agotados, las tapaban con escombros, barriles de tierra y lo que tuvieran a mano. Era una lucha desesperada contra el cansancio y el tiempo. Y aquí hay un detalle que casi nadie conoce y que estremece. Durante el asedio, la luna se eclipsó y una niebla extraña cubrió la ciudad. Para los bizantinos, gente profundamente religiosa, aquello fueron señales de que Dios abandonaba la ciudad. Cuando un pueblo pierde la fe en su propia salvación, ya está medio derrotado por dentro.\n\nEl asalto final llegó en la madrugada del veintinueve de mayo. Oleada tras oleada de atacantes se lanzaron contra los muros. Los defensores, exhaustos, resistieron una y otra vez. Pero entonces ocurrió una de esas casualidades que deciden la historia. Alguien, en el caos, dejó abierta una pequeña poterna, una puerta de servicio en la muralla. Unos soldados otomanos se colaron por ella e izaron su bandera en una torre. El grito de que la ciudad había caído se extendió, y entre los defensores cundió el pánico. La defensa se desmoronó. El último emperador, Constantino, se arrancó las insignias imperiales para no ser reconocido y se lanzó a la lucha como un soldado más. Nunca se encontró su cuerpo. Desapareció entre la multitud, y con él, mil años de imperio.\n\nCuando el joven sultán Mehmed entró en la ciudad, se dirigió a la gran iglesia de Santa Sofía, la catedral más imponente de la cristiandad durante casi mil años, y ordenó convertirla en mezquita. Constantinopla cambió de manos, de religión y de nombre: con el tiempo se convertiría en Estambul, la ciudad que hoy conoces. El Imperio romano, que había empezado siglos antes de Cristo, expiraba definitivamente aquel día de mayo, mil años después de la caída de Roma en Occidente.\n\nLa onda expansiva de aquel día fue inmensa. La caída de Constantinopla cerró las viejas rutas comerciales entre Europa y Asia, y empujó a reinos como Portugal y España a buscar caminos nuevos hacia las riquezas de Oriente navegando por mares desconocidos. Apenas cuarenta años después, esa búsqueda llevaría a Colón a América. Muchos historiadores marcan este día como el final de la Edad Media y el comienzo de una nueva era. Sabios bizantinos huyeron a Italia llevando consigo manuscritos antiguos que ayudaron a encender el Renacimiento. La muerte de una ciudad iluminó el nacimiento del mundo moderno.\n\nY aquí está la moraleja. Durante mil años, los habitantes de Constantinopla confiaron en que sus murallas los harían eternos. Pero ninguna defensa, por gloriosa que sea, resiste para siempre si el mundo a su alrededor cambia y tú no cambias con él. Las murallas que habían sido invencibles contra catapultas eran obsoletas frente a la pólvora. El imperio cayó, en el fondo, por aferrarse a las glorias del pasado mientras el enemigo abrazaba el futuro. Y hay una lección aún más afilada en la figura de Urbano, el ingeniero. El arma que destruyó la ciudad pudo haberla defendido, si quienes mandaban dentro no hubieran sido tan ciegos para reconocer a tiempo lo que tenían delante. A veces, el mayor enemigo de un imperio no está al otro lado del muro: es su propia incapacidad para ver que el mundo ya ha cambiado."
+    },
+    {
       "id": "hernan-cortes",
       "name": "Hernán Cortés",
       "title": "El hombre que quemó sus naves",
       "era": "Siglo XVI",
+      "coleccion": "historia",
       "tags": [
         "España",
         "Conquista",
@@ -32,6 +241,7 @@
       "name": "Francisco Pizarro",
       "title": "El porquero que conquistó un imperio",
       "era": "Siglo XVI",
+      "coleccion": "historia",
       "tags": [
         "España",
         "Conquista",
@@ -51,6 +261,7 @@
       "name": "Isabel la Católica",
       "title": "La reina que se coronó a sí misma",
       "era": "Siglo XV",
+      "coleccion": "historia",
       "tags": [
         "España",
         "Reyes Católicos",
@@ -70,6 +281,7 @@
       "name": "Cristóbal Colón",
       "title": "El hombre que se equivocó en todo y cambió el mundo",
       "era": "Siglo XV",
+      "coleccion": "historia",
       "tags": [
         "Descubrimiento",
         "América",
@@ -89,6 +301,7 @@
       "name": "Gengis Kan",
       "title": "El niño esclavo que conquistó medio mundo",
       "era": "Siglos XII-XIII",
+      "coleccion": "historia",
       "tags": [
         "Mongolia",
         "Imperio",
@@ -108,6 +321,7 @@
       "name": "Napoleón Bonaparte",
       "title": "El hombre bajito que fue gigante (y otras mentiras)",
       "era": "Siglos XVIII-XIX",
+      "coleccion": "historia",
       "tags": [
         "Francia",
         "Imperio",
@@ -127,6 +341,7 @@
       "name": "Adolf Hitler",
       "title": "El pintor mediocre que arrastró al mundo al abismo",
       "era": "Siglo XX",
+      "coleccion": "historia",
       "tags": [
         "Alemania",
         "II Guerra Mundial",
@@ -146,6 +361,7 @@
       "name": "Julio César",
       "title": "El hombre que mató a la República para salvarla",
       "era": "Siglo I a.C.",
+      "coleccion": "historia",
       "tags": [
         "Roma",
         "Imperio",
@@ -165,6 +381,7 @@
       "name": "Cleopatra",
       "title": "La reina más lista del mundo antiguo (no la más guapa)",
       "era": "Siglo I a.C.",
+      "coleccion": "historia",
       "tags": [
         "Egipto",
         "Roma",
@@ -184,6 +401,7 @@
       "name": "Alejandro Magno",
       "title": "El joven que conquistó el mundo antes de los 33",
       "era": "Siglo IV a.C.",
+      "coleccion": "historia",
       "tags": [
         "Grecia",
         "Macedonia",
@@ -203,6 +421,7 @@
       "name": "Leonardo da Vinci",
       "title": "El genio que dejó casi todo sin terminar",
       "era": "Siglos XV-XVI",
+      "coleccion": "historia",
       "tags": [
         "Italia",
         "Arte",
@@ -222,6 +441,7 @@
       "name": "Juana de Arco",
       "title": "La adolescente que lideró un ejército y acabó en la hoguera",
       "era": "Siglo XV",
+      "coleccion": "historia",
       "tags": [
         "Francia",
         "Guerra",
@@ -241,6 +461,7 @@
       "name": "Albert Einstein",
       "title": "El niño del que dudaron y reinventó el universo",
       "era": "Siglo XX",
+      "coleccion": "historia",
       "tags": [
         "Ciencia",
         "Física",
@@ -260,6 +481,7 @@
       "name": "Marie Curie",
       "title": "La mujer con dos Nobel que murió por su propio descubrimiento",
       "era": "Siglos XIX-XX",
+      "coleccion": "historia",
       "tags": [
         "Ciencia",
         "Física",
@@ -279,6 +501,7 @@
       "name": "Abraham Lincoln",
       "title": "El leñador que abolió la esclavitud y lo pagó con la vida",
       "era": "Siglo XIX",
+      "coleccion": "historia",
       "tags": [
         "Estados Unidos",
         "Esclavitud",
@@ -298,6 +521,7 @@
       "name": "Nikola Tesla",
       "title": "El genio que iluminó el mundo y murió en la ruina",
       "era": "Siglos XIX-XX",
+      "coleccion": "historia",
       "tags": [
         "Ciencia",
         "Electricidad",
@@ -317,6 +541,7 @@
       "name": "Espartaco",
       "title": "El esclavo que hizo temblar a Roma",
       "era": "Siglo I a.C.",
+      "coleccion": "historia",
       "tags": [
         "Roma",
         "Esclavitud",
@@ -336,6 +561,7 @@
       "name": "Iósif Stalin",
       "title": "El hombre de acero que asesinó a millones de los suyos",
       "era": "Siglo XX",
+      "coleccion": "historia",
       "tags": [
         "Unión Soviética",
         "Dictadura",
@@ -355,6 +581,7 @@
       "name": "Mahatma Gandhi",
       "title": "El hombre que derrotó a un imperio sin disparar una bala",
       "era": "Siglos XIX-XX",
+      "coleccion": "historia",
       "tags": [
         "India",
         "Independencia",
@@ -374,6 +601,7 @@
       "name": "Nelson Mandela",
       "title": "Veintisiete años preso, luego presidente del país que lo encarceló",
       "era": "Siglo XX",
+      "coleccion": "historia",
       "tags": [
         "Sudáfrica",
         "Apartheid",
@@ -393,6 +621,7 @@
       "name": "Winston Churchill",
       "title": "El político acabado que salvó al mundo libre",
       "era": "Siglo XX",
+      "coleccion": "historia",
       "tags": [
         "Reino Unido",
         "Segunda Guerra Mundial",
@@ -412,6 +641,7 @@
       "name": "Catalina la Grande",
       "title": "La extranjera que robó el trono de Rusia",
       "era": "Siglo XVIII",
+      "coleccion": "historia",
       "tags": [
         "Rusia",
         "Imperio",
@@ -431,6 +661,7 @@
       "name": "Ramsés II",
       "title": "El faraón que reinó 66 años y se creyó un dios",
       "era": "Siglo XIII a.C.",
+      "coleccion": "historia",
       "tags": [
         "Egipto",
         "Faraón",
@@ -450,6 +681,7 @@
       "name": "Vlad el Empalador",
       "title": "El príncipe real detrás del mito de Drácula",
       "era": "Siglo XV",
+      "coleccion": "historia",
       "tags": [
         "Rumanía",
         "Guerra",
@@ -469,6 +701,7 @@
       "name": "Atila",
       "title": "El azote de Dios que aterrorizó a Roma",
       "era": "Siglo V",
+      "coleccion": "historia",
       "tags": [
         "Hunos",
         "Imperio Romano",
@@ -482,6 +715,101 @@
         "alvaro": "audio/atila_alvaro.mp3"
       },
       "script": "Había un dicho en la Antigüedad que decía que donde pisaba su caballo, no volvía a crecer la hierba. Imagina el terror que tenía que inspirar un hombre para que la gente contara eso de él. Te voy a hablar de Atila, rey de los hunos, el bárbaro que hizo temblar al imperio más poderoso que había existido jamás, el hombre al que llamaron el Azote de Dios. Y, sin embargo, como vas a ver, ni era el salvaje sin cerebro que nos han pintado, ni murió en una batalla épica, ni acabó como nadie hubiera imaginado. Su final es, quizá, la mayor ironía de toda la historia antigua.\n\nAtila llegó al poder hacia el año cuatrocientos treinta y cuatro después de Cristo, en una época en que el imperio romano se estaba cayendo a pedazos. Al principio compartió el trono de los hunos con su hermano Bleda. Pero la cosa no duró mucho: Bleda murió, y casi todo el mundo da por hecho que Atila tuvo bastante que ver en ello. Empezar tu reinado quitando de en medio a tu propio hermano te da una idea bastante clara de la clase de hombre del que hablamos. A partir de ahí, gobernó solo, y convirtió a los hunos en la pesadilla de Europa.\n\nPero aquí va la primera sorpresa que derriba el mito. Cuando piensas en un bárbaro, imaginas a un bruto sucio y analfabeto. Atila no era nada de eso. Tenemos un testimonio extraordinario, el de un diplomático romano llamado Prisco, que viajó hasta el campamento de Atila y cenó con él. Y lo que cuenta es asombroso. Describe a un hombre sobrio, inteligentísimo, que en mitad de un banquete donde sus nobles bebían en copas de oro y plata, él comía en un plato de madera y bebía en una copa de madera. Vestía con sencillez, sin joyas ni adornos. Mientras todos a su alrededor presumían de lujo, Atila enviaba un mensaje silencioso: yo no necesito demostrar nada, mi poder está por encima de eso. Era un estratega frío y calculador, no un loco sediento de sangre. Y eso lo hacía mucho más peligroso.\n\nSu táctica favorita no era siempre la guerra. Muchas veces, Atila prefería el chantaje. Amenazaba a las ciudades y al propio emperador romano, y a cambio de no arrasarlo todo, exigía cantidades enormes de oro como tributo. Durante años, el imperio romano de oriente le pagó auténticas fortunas simplemente para que no atacara. Era, básicamente, una extorsión a escala continental. Atila descubrió algo que los mafiosos de hoy conocen muy bien: a veces da más dinero la amenaza que el robo.\n\nY luego, claro, está la leyenda de la mujer que cambió la historia. Cuenta el relato que Honoria, la hermana del emperador romano de occidente, metida en líos por un romance prohibido y a punto de ser casada a la fuerza, le envió a Atila su anillo pidiéndole, en cierto modo, que la rescatara. Atila interpretó aquello como una propuesta de matrimonio y exigió, como dote, nada menos que la mitad del imperio romano de occidente. Cuando se lo negaron, tuvo la excusa perfecta para invadir las Galias, lo que hoy es Francia. Allí, en el año cuatrocientos cincuenta y uno, se libró la gran batalla de los Campos Cataláunicos, una de las más sangrientas de la Antigüedad. Y atención, porque aquí cae otro mito: Atila perdió, o como mucho empató. No era invencible. Un general romano llamado Aecio, aliado con los visigodos, consiguió frenarlo. Fue una de las poquísimas derrotas serias de su carrera.\n\nPero el episodio más fascinante llegó al año siguiente, cuando Atila invadió Italia y se plantó dispuesto a marchar sobre la mismísima Roma. Y entonces ocurrió algo que durante siglos se ha contado como un milagro. El papa León Primero, desarmado, sin ejército, salió a su encuentro y habló con él. Y, contra todo pronóstico, Atila dio media vuelta y se retiró. La leyenda cristiana dice que el bárbaro vio a san Pedro y san Pablo flotando sobre el papa, amenazándolo con sus espadas. La realidad es probablemente menos poética: en su ejército había hambre y peste, los refuerzos romanos venían de camino, y Atila, buen estratega, calculó que tomar Roma no le compensaba. Pero quedó para la historia la imagen de un anciano desarmado que detuvo al hombre más temido del mundo solo con sus palabras. A veces, la inteligencia frena lo que ningún ejército puede frenar.\n\nY ahora llega el final, que es donde la historia se vuelve casi una broma cruel del destino. Atila, el guerrero que había aterrorizado a dos imperios, el hombre cuyo caballo secaba la hierba, no murió en combate, ni asesinado por un rival, ni de una enfermedad heroica. Murió la noche de su propia boda. Se había casado con una joven llamada Ildico, celebró el banquete bebiendo sin medida, y se fue a dormir. A la mañana siguiente lo encontraron muerto en la cama, ahogado en su propia sangre por una hemorragia nasal mientras dormía borracho. El terror de Europa, el Azote de Dios, derribado no por una espada sino por una copa de vino y una hemorragia de nariz. Cuentan que lo enterraron en un triple ataúd de oro, plata y hierro, en el lecho de un río que desviaron para la ocasión y luego volvieron a su curso, y que mataron a todos los que cavaron la tumba para que nadie supiera jamás dónde reposaba. Hasta hoy, nadie ha encontrado el sepulcro de Atila.\n\nY aquí está la reflexión que quiero dejarte. Atila construyó su imperio sobre el miedo. Durante toda su vida fue la amenaza, el nombre que hacía temblar a reyes y emperadores. Pero su imperio era él, y solo él. En cuanto murió, aquella tarde absurda, sus hijos se pelearon por el reparto, los pueblos sometidos se rebelaron, y en apenas unos años el gran imperio de los hunos se desvaneció como si nunca hubiera existido. Todo aquel terror, toda aquella fuerza, no dejó nada en pie. Ni siquiera una tumba que visitar.\n\nLa moraleja es esta: el poder que se sostiene solo sobre el miedo es el más frágil de todos, porque depende por completo del hombre que lo inspira. El día que ese hombre falta, no queda absolutamente nada, ni respeto, ni lealtad, ni recuerdo amable. Atila pudo doblegar imperios, pero no fue capaz de construir algo que le sobreviviera ni un solo día. Y fíjate en la lección más humilde de todas: el guerrero más temido de la historia no cayó ante un enemigo a su altura, sino ante su propia desmesura, en una noche de vino. Por muy alto que llegues, por mucho que te teman, nunca eres tan invencible como crees. El destino, tarde o temprano, encuentra la forma más sencilla de recordártelo."
+    },
+    {
+      "id": "kids-cleopatra",
+      "name": "Cleopatra",
+      "title": "La reina más lista del antiguo Egipto",
+      "era": "Antiguo Egipto",
+      "coleccion": "kids",
+      "tags": [
+        "Egipto",
+        "Reinas",
+        "Kids"
+      ],
+      "order": 1,
+      "duration": 313,
+      "image": "images/kids-cleopatra.jpg",
+      "audio": {
+        "ximena": "audio/kids-cleopatra_ximena.mp3"
+      },
+      "script": "¿Sabes una cosa? Hace muchísimo tiempo, en un país lleno de arena dorada y de pirámides enormes que tocaban el cielo, vivía una reina muy especial. Se llamaba Cleopatra. Imagínate un lugar donde un río gigante, el río Nilo, cruzaba el desierto y hacía crecer plantas verdes y flores. Ese país se llamaba Egipto, y Cleopatra era su reina.\n\nPero Cleopatra no era una reina cualquiera. ¿Sabes qué la hacía tan especial? No eran solo sus vestidos bonitos ni sus collares brillantes. Lo más especial de Cleopatra estaba dentro de su cabeza. ¡Era listísima!\n\nDesde pequeña le encantaba aprender. Mientras otros niños jugaban, ella leía y leía. En aquella época, mucha gente solo hablaba un idioma. Pero Cleopatra aprendió a hablar muchísimos. ¿Te imaginas hablar con personas de lugares lejanos y entender todo lo que decían? Pues ella podía. Cuando llegaban viajeros de tierras lejanas, todos hablaban una lengua distinta, y Cleopatra los entendía a todos. Por eso la gente la admiraba tanto.\n\nCleopatra vivía en una ciudad preciosa junto al mar, que se llamaba Alejandría. En esa ciudad había una biblioteca gigante, una casa enorme llena de libros. Bueno, en aquel tiempo los libros eran como rollos de papel muy largos. Allí guardaban todo lo que la gente sabía sobre las estrellas, los animales, las plantas y los números. A Cleopatra le encantaba ese lugar. Para ella, aprender cosas nuevas era como encontrar un tesoro.\n\n¿Y sabes qué más había en Alejandría? Una torre altísima junto al mar con una luz enorme en lo alto. Era un faro, y por la noche brillaba para que los barcos no se perdieran en la oscuridad. ¡Era una de las construcciones más asombrosas del mundo!\n\nSer reina no era nada fácil. Cleopatra tenía que tomar decisiones muy importantes para cuidar a toda su gente. Tenía que pensar bien las cosas, ser valiente y no rendirse nunca, aunque algunos quisieran quitarle su puesto. Pero ella usaba su mejor herramienta: su inteligencia. En lugar de enfadarse, pensaba. En lugar de gritar, buscaba la mejor manera de arreglar los problemas hablando.\n\nTe cuento algo divertido. Una vez, Cleopatra quería conocer a un jefe muy importante que venía de muy lejos. Pero no era fácil llegar hasta él. ¿Y sabes qué se le ocurrió? Cuentan que se hizo llevar hasta el palacio escondida, para poder aparecer de sorpresa y hablar con él. ¡Imagínate la cara de todos cuando apareció! Era valiente y tenía muchísima imaginación para resolver los problemas.\n\nA Cleopatra le gustaba que su país fuera bonito y que su gente estuviera contenta. Le encantaban los perfumes con olor a flores, los jardines llenos de color y la música. Decía que un buen rey o una buena reina debe cuidar de su pueblo como una mamá cuida de sus hijos.\n\n¿Quieres saber otro secreto? En aquellos tiempos, casi siempre mandaban los hombres. Era muy raro que una mujer fuera la jefa de todo un país. Pero Cleopatra demostró que una mujer también podía ser una líder estupenda, lista y fuerte. Y lo hizo durante muchos años.\n\nPor las noches, cuando el cielo de Egipto se llenaba de estrellas, los sabios miraban hacia arriba e intentaban entender el universo. Cleopatra los escuchaba con curiosidad. Le gustaba hacer preguntas. Y, ¿sabes una cosa?, hacer preguntas es una de las cosas más inteligentes que podemos hacer. Cada vez que preguntas algo, tu cabecita aprende un poquito más.\n\nHoy, miles y miles de años después, todavía hablamos de Cleopatra. La recordamos no porque tuviera coronas brillantes, sino porque fue muy lista, muy curiosa y muy valiente. Su nombre ha viajado por el tiempo hasta llegar a ti, aquí y ahora.\n\nY aquí viene lo más bonito de esta historia. Cleopatra nos enseña algo precioso: lo más valioso que tenemos no está en lo que llevamos puesto, sino en lo que aprendemos y en cómo tratamos a los demás. Si eres curioso, si haces preguntas, si nunca dejas de aprender y eres amable con la gente, tú también puedes hacer cosas grandes.\n\nAsí que la próxima vez que veas una estrella en el cielo, o que aprendas una palabra nueva, acuérdate de la reina más lista del antiguo Egipto. Y recuerda: tu mejor tesoro está dentro de tu cabeza y de tu corazón.\n\n¿A que es una historia bonita? Pues hay muchísimas más esperándote. Hasta la próxima, pequeño explorador."
+    },
+    {
+      "id": "kids-gengis-kan",
+      "name": "Gengis Kan",
+      "title": "El niño que llegó a ser el gran jefe de la estepa",
+      "era": "Hace muchos siglos",
+      "coleccion": "kids",
+      "tags": [
+        "Mongolia",
+        "Aventura",
+        "Kids"
+      ],
+      "order": 2,
+      "duration": 284,
+      "image": "images/kids-gengis-kan.jpg",
+      "audio": {
+        "ximena": "audio/kids-gengis-kan_ximena.mp3"
+      },
+      "script": "Imagínate un lugar enorme, lleno de hierba verde que se mueve con el viento, donde no hay casas ni edificios, solo campo y campo hasta donde llega la vista. A ese lugar tan grande se le llama estepa. Y allí, hace muchísimos siglos, vivía un niño que un día se convertiría en un gran jefe. Su nombre era Gengis Kan.\n\n¿Sabes una cosa? Gengis Kan no nació siendo rey ni viviendo en un palacio. Nació en una familia que vivía en tiendas de campaña, en medio de aquellos campos inmensos. Su gente, los mongoles, se movía de un sitio a otro con sus caballos y sus animales, buscando hierba fresca. Eran viajeros de la estepa.\n\nCuando era pequeño, la vida no fue nada fácil para él. Tuvo que aprender muy pronto a cuidar de su familia y a buscar comida. Hacía mucho frío en invierno y mucho calor en verano. Pero, ¿sabes qué? Aquel niño no se rindió. Aunque las cosas se ponían difíciles, él seguía adelante. Aprendió a ser fuerte, a ser valiente y a no tener miedo de las dificultades.\n\n¿Y sabes qué se le daba genial? ¡Montar a caballo! En la estepa, los caballos eran amigos muy importantes. Los niños mongoles aprendían a montar casi antes que a caminar. Imagínate galopar por aquellos campos enormes con el viento en la cara. Gengis Kan era un jinete estupendo, rápido como el viento.\n\nPero lo más especial de él no era cómo montaba a caballo. Era cómo trataba a sus amigos. ¿Sabes lo que más valoraba Gengis Kan? La lealtad. Eso quiere decir ser un amigo de verdad, de los que están contigo en lo bueno y en lo malo. Él decía que un amigo fiel valía más que todo el oro del mundo. Por eso, mucha gente quería seguirlo. Confiaban en él.\n\nPoco a poco, Gengis Kan consiguió que muchas familias y muchos grupos que antes estaban separados se unieran. Antes, cada grupo iba por su lado. Pero él tuvo una idea preciosa: ¿y si todos nos unimos y nos ayudamos? Juntos eran mucho más fuertes que separados. Así, todos aquellos pueblos de la estepa se convirtieron en un solo gran equipo.\n\n¿Sabes una cosa muy curiosa? A Gengis Kan le gustaban mucho las ideas buenas, vinieran de donde vinieran. Si alguien sabía hacer algo bien, él quería aprenderlo. Le daba igual de dónde fuera esa persona. Por eso su pueblo aprendió muchísimas cosas nuevas de tierras lejanas.\n\nOtra cosa muy lista que hizo fue ayudar a que los mensajes viajaran muy lejos y muy rápido. Imagínate un correo gigante: personas montadas a caballo que llevaban noticias de un lugar a otro, cambiando de caballo para no cansarse. Así, aunque las tierras eran enormes, las noticias volaban de un lado a otro. ¡Era como tener mensajeros superveloces!\n\nGengis Kan también pensaba que las reglas eran importantes. ¿Sabes por qué? Porque las reglas ayudan a que todos vivan en paz y sepan qué está bien y qué está mal. Así nadie se aprovechaba de los demás, y todos sabían a qué atenerse.\n\nCon el tiempo, Gengis Kan llegó a ser el jefe de un territorio tan grande, tan grande, que costaba imaginarlo. Aquel niño que había pasado tantas dificultades se convirtió en uno de los líderes más importantes de toda la historia. Y todo empezó en una pequeña tienda de campaña, en medio de la estepa.\n\n¿Quieres saber lo más bonito de esta historia? Gengis Kan nos enseña que no importa de dónde vengas ni lo difíciles que sean las cosas al principio. Si eres valiente, si no te rindes y si tratas bien a tus amigos, puedes llegar muy lejos. A veces los comienzos son complicados, pero eso no decide cómo será tu historia. Eso lo decides tú, con tu esfuerzo y con tu corazón.\n\nAsí que la próxima vez que algo te parezca difícil, acuérdate de aquel niño de la estepa que galopaba con el viento y nunca se rindió. Respira, sé valiente y sigue adelante. Tú también puedes conseguir cosas grandes.\n\n¿A que ha sido una aventura preciosa? Pues hay muchas más historias esperándote. Hasta la próxima, pequeño jinete."
+    },
+    {
+      "id": "kids-colon",
+      "name": "Cristóbal Colón",
+      "title": "El gran viaje en barco hacia un mundo nuevo",
+      "era": "Hace más de 500 años",
+      "coleccion": "kids",
+      "tags": [
+        "Exploradores",
+        "Barcos",
+        "Kids"
+      ],
+      "order": 3,
+      "duration": 284,
+      "image": "images/kids-colon.jpg",
+      "audio": {
+        "ximena": "audio/kids-colon_ximena.mp3"
+      },
+      "script": "¿Te gustan las aventuras en el mar? Pues escucha, porque te voy a contar la historia de un hombre que soñaba con cruzar el océano en barco. Se llamaba Cristóbal Colón, y vivió hace más de quinientos años.\n\nCristóbal Colón nació junto al mar, en una ciudad donde había muchos barcos. Desde pequeño veía las olas, escuchaba las historias de los marineros y miraba cómo los barcos se alejaban hasta hacerse pequeñitos en el horizonte. ¿Sabes qué se preguntaba? Pensaba: ¿qué habrá más allá, donde el agua se junta con el cielo? Y esa pregunta no lo dejaba dormir.\n\nEn aquella época, la gente sabía mucho menos del mundo que ahora. No había mapas completos. Muchos marineros tenían miedo de alejarse mucho de la costa, porque no sabían qué podía haber allá lejos. Pero Cristóbal Colón era muy curioso y muy valiente. Tenía una idea en la cabeza, y quería comprobarla.\n\nSu idea era esta: si navegaba hacia donde se pone el sol, hacia el oeste, quizá podría llegar a tierras llenas de cosas maravillosas. Otros le decían que era imposible, que era una locura. Pero, ¿sabes qué? Él no se rindió. Cuando crees mucho en algo, hay que ser valiente y seguir intentándolo.\n\nColón necesitaba barcos, marineros y comida para el viaje. Y eso costaba mucho dinero. Así que fue a hablar con reyes y reinas para pedirles ayuda. Muchos le dijeron que no. Imagínate qué triste, que te digan una y otra vez que no. Pero él seguía llamando a otras puertas. Hasta que por fin, una reina y un rey de España, que se llamaban Isabel y Fernando, le dijeron que sí. ¡Por fin podría hacer su viaje!\n\nLe dieron tres barcos. ¿Sabes cómo se llamaban? La Niña, la Pinta y la Santa María. ¿A que son nombres bonitos? Eran barcos de vela, así que necesitaban el viento para moverse. Y un buen día, con las velas hinchadas por el viento, soltaron las cuerdas y empezaron su gran aventura por el océano.\n\nEl viaje fue larguísimo. Pasaban los días, y los marineros solo veían agua y más agua a su alrededor. No se veía tierra por ninguna parte. Algunos empezaron a tener miedo y querían volver a casa. Pero Colón los animaba: un poquito más, ya falta menos. Hay que tener paciencia y no perder la esperanza.\n\nY entonces, una mañana muy temprano, después de muchas semanas en el mar, un marinero gritó algo que hizo que a todos les diera un vuelco el corazón. ¡Tierra! ¡Tierra a la vista! ¿Te imaginas la alegría? Después de tanto tiempo viendo solo agua, por fin habían llegado a unas tierras nuevas, con playas, palmeras y plantas que ellos nunca habían visto antes.\n\nAllí vivían personas, los habitantes de aquellas tierras, que también se quedaron sorprendidos al ver llegar aquellos barcos tan grandes. Era un encuentro entre gente de mundos muy diferentes, que hasta ese día no sabían que el otro existía. ¡Qué momento tan asombroso!\n\nAquel viaje cambió el mundo para siempre. Gracias a viajes como ese, las personas de un lado del océano y del otro empezaron a conocerse. Se intercambiaron comidas, plantas y muchísimas cosas nuevas. ¿Sabes que muchos alimentos que comemos hoy viajaron de un lado a otro del mar gracias a aquellos viajes? El mundo entero se hizo, de pronto, mucho más grande y mucho más interesante.\n\n¿Y sabes cuál es la enseñanza más bonita de esta historia? Cristóbal Colón nos enseña que ser curioso es maravilloso. Hacerse preguntas sobre el mundo, querer saber qué hay más allá, es el comienzo de las aventuras más grandes. Y también nos enseña a no rendirnos: aunque mucha gente le dijo que no, él siguió intentándolo hasta conseguirlo.\n\nAsí que ya lo sabes. Cuando tengas un sueño, aunque te parezca muy difícil, sé valiente, ten paciencia y no dejes de intentarlo. Quién sabe qué mundos nuevos descubrirás tú.\n\n¿A que ha sido un viaje emocionante? Pues guarda bien tu brújula, porque hay muchas más historias esperándote. Hasta la próxima, pequeño marinero."
+    },
+    {
+      "id": "kids-leonardo",
+      "name": "Leonardo da Vinci",
+      "title": "El inventor que dibujaba máquinas para volar",
+      "era": "Hace unos 500 años",
+      "coleccion": "kids",
+      "tags": [
+        "Arte",
+        "Inventos",
+        "Kids"
+      ],
+      "order": 4,
+      "duration": 294,
+      "image": "images/kids-leonardo.jpg",
+      "audio": {
+        "ximena": "audio/kids-leonardo_ximena.mp3"
+      },
+      "script": "¿Sabes una cosa? Hace unos quinientos años vivió un señor que tenía una cabeza llena, llena de ideas. Se llamaba Leonardo da Vinci, y era una de las personas más curiosas que han existido nunca. ¿Quieres conocerlo? Pues ven, que te lo presento.\n\nLeonardo nació en un pueblecito de Italia, rodeado de colinas verdes, olivos y mucho campo. Desde pequeñito le encantaba mirarlo todo. ¿Y sabes qué hacía? Se quedaba horas observando los pájaros volar, el agua de los ríos correr y las flores abrirse. Mientras otros pasaban de largo, él se paraba y preguntaba: ¿por qué? ¿Cómo funciona esto? Era curioso como tú cuando preguntas mil cosas.\n\nA Leonardo le encantaba dibujar. ¡Pero dibujaba de maravilla! Cogía su cuaderno y dibujaba todo lo que veía: caras de personas, animales, plantas, montañas. Llegó a ser uno de los pintores más famosos del mundo. ¿Has oído hablar de un cuadro de una señora que parece que te sonríe la mires por donde la mires? Se llama la Gioconda, y la pintó él. Mucha gente viaja desde muy lejos solo para verla.\n\nPero Leonardo no solo pintaba. ¡Ay, no! Su cabeza no paraba quieta. ¿Sabes qué soñaba? Soñaba con volar. Sí, como los pájaros. Se pasaba horas mirando cómo movían las alas las aves, intentando entender su secreto. Y luego, en su cuaderno, dibujaba máquinas con alas enormes para que las personas pudieran volar también. ¡Imagínate, hace quinientos años, soñar con volar!\n\nDibujó máquinas voladoras, dibujó algo parecido a un helicóptero con una hélice que giraba, y muchísimos otros inventos. En aquella época no se podían construir todavía, pero, ¿sabes qué es lo más asombroso? Que muchas de sus ideas se parecían a cosas que de verdad tenemos hoy, como los aviones y los helicópteros. ¡Leonardo iba muy adelantado a su tiempo!\n\nLeonardo llevaba siempre un cuaderno encima. Y lo llenaba de dibujos y de notas. Apuntaba todo lo que se le ocurría: cómo es el cuerpo por dentro, cómo se mueve el agua, cómo podría construirse un puente o una máquina. ¿Sabes una cosa curiosa? A veces escribía al revés, como si lo leyeras en un espejo. ¡Como un código secreto!\n\n¿Y sabes cuál era su secreto de verdad? No era ser el más listo de todos. Su secreto era que nunca dejaba de tener curiosidad. Para Leonardo, el mundo entero era como un libro gigante lleno de cosas por descubrir. Cada día aprendía algo nuevo, y cada cosa que aprendía le hacía querer aprender todavía más.\n\nLeonardo también nos enseña algo precioso: que se puede ser muchas cosas a la vez. Él era pintor, pero también inventor. Y estudioso de los animales y las plantas. Y de las estrellas. Y de cómo funciona el cuerpo. No tenía que elegir solo una cosa. Le interesaba todo. Así que, si a ti te gustan muchas cosas distintas, ¡estupendo! Puedes explorarlas todas, igual que hacía él.\n\nA veces dejaba sus trabajos sin terminar porque se le ocurría una idea nueva y salía corriendo a investigarla. Su mente era como una mariposa que volaba de flor en flor, siempre buscando algo nuevo y bonito que descubrir.\n\n¿Quieres saber la enseñanza más bonita de esta historia? Leonardo da Vinci nos enseña que la curiosidad es un superpoder. Hacer preguntas, observar el mundo con atención, no quedarte con la duda y buscar respuestas: eso es lo que hace que aprendamos y que inventemos cosas maravillosas.\n\nAsí que, ¿sabes qué te digo? La próxima vez que veas un pájaro volar, o una hoja caer, o una sombra moverse, párate un momentito y pregúntate: ¿cómo funcionará esto? Coge un papel y dibújalo. Apunta tus ideas. Quién sabe, a lo mejor dentro de ti hay un pequeño Leonardo esperando a descubrir algo increíble.\n\nNunca dejes de mirar el mundo con ojos curiosos. Porque las personas curiosas son las que cambian el mundo.\n\n¿A que ha sido una historia llena de ideas? Pues guarda bien tu cuaderno, que hay muchas más esperándote. Hasta la próxima, pequeño inventor."
+    },
+    {
+      "id": "kids-alejandro",
+      "name": "Alejandro Magno",
+      "title": "El joven que domó un caballo imposible",
+      "era": "Hace más de 2000 años",
+      "coleccion": "kids",
+      "tags": [
+        "Aventura",
+        "Reyes",
+        "Kids"
+      ],
+      "order": 5,
+      "duration": 292,
+      "image": "images/kids-alejandro.jpg",
+      "audio": {
+        "ximena": "audio/kids-alejandro_ximena.mp3"
+      },
+      "script": "¿Te gustaría escuchar la historia de un chico muy valiente que hizo algo que nadie creía posible? Pues siéntate cómodo, porque te voy a contar la aventura de Alejandro, al que más tarde llamaron Alejandro Magno. La palabra magno quiere decir grande. Pero, ¿sabes qué? Empezó siendo solo un niño, como tú.\n\nAlejandro vivió hace más de dos mil años, en un país llamado Macedonia, lleno de montañas y de cielos azules. Era hijo de un rey, así que vivía en un palacio. Pero no te creas que se pasaba el día sin hacer nada. ¡Qué va! Alejandro estudiaba muchísimo y entrenaba para ser fuerte y listo.\n\n¿Sabes quién fue su maestro? Un señor muy sabio, uno de los hombres más inteligentes de su época. Le enseñó sobre los animales, las estrellas, las plantas y sobre cómo pensar bien las cosas. Alejandro escuchaba con mucha atención, porque le encantaba aprender. Y aprendió algo muy importante: que la cabeza es tan poderosa como los músculos.\n\nPero ahora viene la parte más emocionante de la historia. Un día, llevaron al palacio un caballo precioso, grande y negro como la noche. Era un caballo magnífico. Pero había un problema: ¡nadie podía montarlo! El caballo se ponía nervioso, daba saltos y no dejaba que nadie se le acercara. Los hombres más fuertes lo intentaron, y ninguno lo conseguía. Estaban a punto de devolverlo, porque pensaban que aquel caballo era imposible de domar.\n\nY entonces, ¿sabes qué pasó? El joven Alejandro, que era solo un muchacho, dijo: yo puedo montarlo. Todos se rieron. ¿Cómo iba a poder un chiquillo si los hombres mayores no habían podido? Pero Alejandro había estado observando con mucha atención. Y se había dado cuenta de algo que los demás no habían visto.\n\n¿Sabes qué descubrió? Que el caballo tenía miedo de su propia sombra. Cada vez que veía su sombra moverse en el suelo, se asustaba y daba saltos. ¡Qué listo fue Alejandro al darse cuenta! Entonces, muy despacito, cogió al caballo y lo giró con cuidado hacia el sol, de manera que ya no podía ver su sombra. Le habló bajito, con cariño, para tranquilizarlo.\n\nY poco a poco, el caballo se calmó. Dejó de tener miedo. Y entonces Alejandro subió a su lomo y, ante el asombro de todos, ¡salió galopando feliz! Todos se quedaron con la boca abierta. Aquel chico había conseguido, con su inteligencia y con calma, lo que los más fuertes no habían logrado con sus músculos.\n\nA aquel caballo lo llamó Bucéfalo, y fue su mejor amigo durante muchísimos años. Lo cuidó siempre con mucho cariño. ¿Verdad que es bonito? El secreto no había sido la fuerza, sino observar, pensar y tratar al caballo con paciencia y amabilidad.\n\nCuando Alejandro creció, se convirtió en rey y viajó por tierras muy lejanas. Conoció desiertos, ríos enormes y ciudades llenas de gente con costumbres diferentes. Era muy curioso y le encantaba descubrir cómo vivían las personas de otros lugares. Allá donde iba, aprendía cosas nuevas y conocía culturas distintas. Llegó tan lejos que se hizo famoso en todo el mundo conocido.\n\nPero, ¿sabes qué es lo que la gente recuerda con más cariño? Aquella historia del niño y el caballo. Porque en ella está el secreto de Alejandro: usar la cabeza, observar con atención y no rendirse aunque todos digan que algo es imposible.\n\n¿Y sabes cuál es la enseñanza más bonita de esta historia? Que muchas veces, cuando algo parece imposible, no hace falta ser el más fuerte. Hace falta mirar bien, pensar con calma y entender por qué pasan las cosas. Alejandro no venció al caballo a la fuerza: lo entendió. Y eso es muchísimo más valioso.\n\nAsí que la próxima vez que algo te parezca demasiado difícil, acuérdate del joven Alejandro y de su caballo negro. Respira, mira con atención, piensa y ten un poco de paciencia. A lo mejor descubres que eso imposible, en realidad, sí que se puede.\n\n¿A que ha sido una aventura estupenda? Pues sujeta bien las riendas, que hay muchas más historias esperándote. Hasta la próxima, pequeño jinete valiente."
     }
   ]
 }
