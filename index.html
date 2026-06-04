@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1" />
+<meta name="theme-color" content="#0F0E17" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="apple-mobile-web-app-title" content="JUIS" />
+<link rel="manifest" href="manifest.webmanifest" />
+<link rel="apple-touch-icon" href="icons/icon-192.png" />
+<title>JUIS</title>
+<style>
+  :root{
+    --bg:#0E1B25; --card:#17262F; --soft:#21333D; --accent:#E3B450;
+    --accent-deep:#C7912E; --accent2:#6F94A8; --text:#F4EEE0; --muted:#9FB1BD;
+    --green:#5BD08A; --border:#2B3C46;
+  }
+  *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+  html,body{margin:0;color:var(--text);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+  body{padding-bottom:env(safe-area-inset-bottom);min-height:100vh;
+    background:radial-gradient(120% 80% at 50% 0%, #163142 0%, #0E1B25 55%, #0A141C 100%) fixed}
+  a{color:inherit}
+  .serif{font-family:Georgia,"Times New Roman",serif}
+  .wrap{max-width:560px;margin:0 auto;padding:16px 16px 40px}
+  .topbar{position:sticky;top:0;z-index:20;background:rgba(11,20,28,.92);
+    backdrop-filter:blur(8px);display:flex;align-items:center;justify-content:space-between;
+    padding:10px 16px;border-bottom:1px solid var(--border)}
+  .logo-img{height:34px;display:block}
+  .topbtn{background:none;border:0;color:var(--accent);font-weight:700;font-size:15px;cursor:pointer}
+  .kicker{color:var(--accent);font-size:12px;font-weight:800;letter-spacing:1.5px;margin:4px 0 8px}
+  .section{font-size:20px;font-weight:800;margin:24px 0 10px}
+  /* hero */
+  .hero{border-radius:20px;overflow:hidden;background:var(--card);position:relative;cursor:pointer}
+  .hero img{width:100%;height:300px;object-fit:cover;display:block}
+  .hero .ov{position:absolute;left:0;right:0;bottom:0;padding:16px;
+    background:linear-gradient(transparent,rgba(15,14,23,.55) 35%,rgba(15,14,23,.92))}
+  .hero .era{color:var(--accent);font-size:12px;font-weight:800;letter-spacing:1px}
+  .hero .name{font-size:30px;font-weight:700;margin:2px 0;font-family:Georgia,"Times New Roman",serif}
+  .hero .title{color:var(--muted);font-size:15px}
+  .play-pill{margin-top:12px;display:inline-block;background:var(--accent);color:#1A1500;
+    font-weight:800;font-size:14px;padding:9px 16px;border-radius:30px}
+  /* row card */
+  .row{display:flex;align-items:center;background:var(--card);border-radius:14px;
+    padding:10px;margin-bottom:10px;cursor:pointer}
+  .row img,.thumb{width:60px;height:60px;border-radius:10px;object-fit:cover;background:var(--soft);flex:0 0 auto}
+  .thumb{display:flex;align-items:center;justify-content:center;color:var(--accent);font-weight:800;font-size:26px}
+  .row .body{flex:1;margin-left:12px;min-width:0}
+  .row .nm{font-weight:700;font-size:16px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .row .tt{color:var(--muted);font-size:13px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+  .row .mt{color:var(--accent);font-size:11px;margin-top:3px}
+  .badge{margin-left:8px;font-size:18px;font-weight:800;flex:0 0 auto}
+  .badge.h{color:var(--green)} .badge.n{color:var(--accent2);font-size:11px}
+  .row.locked{opacity:.55;cursor:default}
+  .row.locked .thumb{font-size:22px}
+  .soon{flex:0 0 auto;margin-left:8px;font-size:11px;font-weight:800;color:var(--accent);
+    border:1px solid var(--border);border-radius:20px;padding:4px 9px;white-space:nowrap}
+  .pbar-mini{height:4px;background:var(--soft);border-radius:2px;margin-top:6px;overflow:hidden}
+  .pbar-mini>i{display:block;height:100%;background:var(--accent)}
+  /* player */
+  .cover{width:100%;height:330px;border-radius:18px;object-fit:cover;background:var(--card)}
+  .p-era{color:var(--accent);font-size:12px;font-weight:800;letter-spacing:1.5px;margin-top:18px}
+  .p-name{font-size:32px;font-weight:700;margin:4px 0 0;font-family:Georgia,"Times New Roman",serif}
+  .p-title{color:var(--muted);font-size:16px;margin-top:2px}
+  .lbl{color:var(--muted);font-size:11px;font-weight:700;letter-spacing:1.5px;margin:22px 0 8px}
+  .voices{display:flex;gap:10px}
+  .voice{flex:1;background:var(--card);border:1px solid var(--border);border-radius:14px;
+    padding:12px;cursor:pointer}
+  .voice.active{background:var(--accent);border-color:var(--accent);color:#1A1500}
+  .voice b{font-size:16px} .voice small{display:block;color:var(--muted);margin-top:2px}
+  .voice.active small{color:#5a4a12}
+  .track{height:7px;border-radius:4px;background:var(--soft);margin-top:24px;overflow:hidden;cursor:pointer}
+  .track>i{display:block;height:100%;background:var(--accent);width:0}
+  .times{display:flex;justify-content:space-between;color:var(--muted);font-size:12px;margin-top:6px}
+  .controls{display:flex;align-items:center;justify-content:center;gap:30px;margin-top:18px}
+  .ctrl{background:none;border:0;color:var(--text);font-size:17px;font-weight:700;cursor:pointer}
+  .playbtn{width:74px;height:74px;border-radius:50%;background:var(--accent);color:#1A1500;
+    border:0;font-size:26px;cursor:pointer;display:flex;align-items:center;justify-content:center}
+  .heardbtn{display:block;margin:24px auto 0;border:1px solid var(--border);background:none;
+    color:var(--muted);font-weight:700;padding:11px 22px;border-radius:30px;cursor:pointer}
+  .heardbtn.on{border-color:var(--green);color:var(--green);background:var(--soft)}
+  .tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:26px}
+  .tag{background:var(--card);color:var(--accent2);padding:6px 12px;border-radius:20px;font-size:13px;cursor:pointer}
+  .ghost{display:block;width:100%;margin-top:28px;background:var(--card);border:1px solid var(--border);
+    color:var(--accent);font-weight:700;font-size:15px;padding:13px;border-radius:12px;cursor:pointer}
+  .script{color:var(--muted);font-size:15px;line-height:1.6;white-space:pre-wrap;margin-top:14px}
+  .script[hidden]{display:none}
+  /* library */
+  .search{width:100%;background:var(--card);border:0;color:var(--text);border-radius:12px;
+    padding:12px 14px;font-size:16px}
+  .tagbar{display:flex;gap:8px;overflow-x:auto;margin-top:14px;padding-bottom:4px}
+  .tchip{background:var(--card);border:1px solid var(--border);color:var(--muted);
+    border-radius:20px;padding:7px 14px;font-size:13px;font-weight:700;white-space:nowrap;cursor:pointer}
+  .tchip.active{background:var(--accent2);border-color:var(--accent2);color:#fff}
+  .count{color:var(--muted);font-size:13px;margin:16px 0 10px}
+  .center{display:flex;flex-direction:column;align-items:center;justify-content:center;
+    min-height:70vh;text-align:center;padding:24px;color:var(--muted)}
+  .btn{background:var(--accent);color:#1A1500;border:0;font-weight:800;padding:11px 22px;
+    border-radius:30px;cursor:pointer;margin-top:16px}
+  #install{display:none}
+</style>
+</head>
+<body>
+  <div class="topbar">
+    <img class="logo-img" src="logo-wide.png" alt="JUIS" onclick="go('home')" style="cursor:pointer" />
+    <div>
+      <button class="topbtn" id="install">Instalar</button>
+      <button class="topbtn" id="navBtn" onclick="toggleNav()">Biblioteca</button>
+    </div>
+  </div>
+  <div class="wrap" id="screen"></div>
+
+  <audio id="audio" preload="metadata"></audio>
+
+<script>
+const $ = (id) => document.getElementById(id);
+const screen = $('screen');
+const audio = $('audio');
+
+let M = null;            // manifest
+let view = 'home';       // home | player | library
+let currentId = null;    // episodio en el reproductor
+let curVoice = localStorage.getItem('juis.voice') || 'alvaro';
+let libQuery = '', libTag = null;
+
+const heard = () => JSON.parse(localStorage.getItem('juis.heard') || '{}');
+const setHeard = (id, v) => { const m = heard(); v ? m[id]=1 : delete m[id]; localStorage.setItem('juis.heard', JSON.stringify(m)); };
+const progress = () => JSON.parse(localStorage.getItem('juis.progress') || '{}');
+const setProg = (id, s) => { const m = progress(); m[id]=s; localStorage.setItem('juis.progress', JSON.stringify(m)); };
+
+const ep = (id) => M.episodes.find(e => e.id === id);
+
+// --- Desbloqueo diario: 3 disponibles al empezar, +1 cada día ---
+const START_UNLOCKED = 3;
+function unlockInfo(){
+  let start = localStorage.getItem('juis.start');
+  if(!start){ start = new Date().toISOString().slice(0,10); localStorage.setItem('juis.start', start); }
+  const days = Math.floor((Date.now() - new Date(start+'T00:00:00').getTime()) / 86400000);
+  const sorted = [...M.episodes].sort((a,b)=>a.order-b.order);
+  const count = Math.min(sorted.length, Math.max(START_UNLOCKED, START_UNLOCKED + days));
+  return { count, available: sorted.slice(0,count), locked: sorted.slice(count) };
+}
+const lockLabel = (daysUntil) => daysUntil<=1 ? 'Mañana' : `En ${daysUntil} días`;
+const fmt = (s) => { s=Math.floor(s||0); return Math.floor(s/60)+':'+String(s%60).padStart(2,'0'); };
+const esc = (t) => (t||'').replace(/[&<>]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+const imgTag = (e, cls) => e.image
+  ? `<img class="${cls}" src="${e.image}" alt="">`
+  : `<div class="thumb" style="${cls==='cover'?'width:100%;height:330px;font-size:64px':''}">${esc(e.name[0])}</div>`;
+
+async function init(){
+  if ('serviceWorker' in navigator) {
+    try { await navigator.serviceWorker.register('sw.js'); } catch(e){}
+  }
+  try {
+    const res = await fetch('manifest.json?t=' + Date.now(), {cache:'no-store'});
+    if(!res.ok) throw 0;
+    M = await res.json();
+    M.episodes.sort((a,b)=>a.order-b.order);
+    render();
+  } catch(e){
+    screen.innerHTML = `<div class="center"><p>No se pudo cargar el contenido.<br>
+      Asegúrate de que el servidor está activo.</p>
+      <button class="btn" onclick="init()">Reintentar</button></div>`;
+  }
+}
+
+function go(v, id){ view=v; if(id!==undefined) currentId=id; render(); window.scrollTo(0,0); }
+function toggleNav(){ go(view==='library' ? 'home' : 'library'); }
+
+function render(){
+  $('navBtn').textContent = (view==='library'||view==='player') ? 'Inicio' : 'Biblioteca';
+  $('navBtn').onclick = () => go((view==='library'||view==='player') ? 'home' : 'library');
+  if(view==='home') renderHome();
+  else if(view==='library') renderLibrary();
+  else renderPlayer();
+}
+
+/* ---------- HOME ---------- */
+function renderHome(){
+  const H = heard(), P = progress();
+  const { available, locked, count } = unlockInfo();
+  const desc = [...available].sort((a,b)=>b.order-a.order);
+  const hero = desc.find(e=>!H[e.id]) || desc[0];
+  const cont = desc.filter(e => !H[e.id] && (P[e.id]||0) > 5 && e.id!==hero.id);
+  const noOidos = desc.filter(e => !H[e.id] && e.id!==hero.id && !cont.includes(e));
+  const oidos = desc.filter(e => H[e.id]);
+
+  let html = `<div class="kicker">${H[hero.id]?'ÚLTIMO':'NUEVO PARA TI'}</div>
+    <div class="hero" onclick="go('player','${hero.id}')">
+      ${imgTag(hero,'')}
+      <div class="ov">
+        <div class="era">${esc(hero.era).toUpperCase()}</div>
+        <div class="name serif">${esc(hero.name)}</div>
+        <div class="title">${esc(hero.title)}</div>
+        <span class="play-pill">▶ Escuchar · ${fmt(hero.duration)}</span>
+      </div>
+    </div>`;
+
+  if(cont.length) html += `<div class="section">Continuar</div>` + cont.map(e=>rowCard(e,H,P)).join('');
+  if(noOidos.length) html += `<div class="section">No escuchados</div>` + noOidos.map(e=>rowCard(e,H,P)).join('');
+  if(oidos.length) html += `<div class="section">Ya escuchados</div>` + oidos.map(e=>rowCard(e,H,P)).join('');
+  if(locked.length) html += `<div class="section">Próximamente</div>` +
+    locked.map((e,i)=>lockedCard(e, i + 1)).join('');
+  screen.innerHTML = html;
+}
+
+function lockedCard(e, daysUntil){
+  return `<div class="row locked">
+    <div class="thumb">🔒</div>
+    <div class="body">
+      <div class="nm">${esc(e.name)}</div>
+      <div class="tt">${esc(e.title)}</div>
+      <div class="mt">${esc(e.era)}</div>
+    </div>
+    <span class="soon">${lockLabel(daysUntil)}</span>
+  </div>`;
+}
+
+function rowCard(e,H,P){
+  const pct = e.duration ? Math.min(100,((P[e.id]||0)/e.duration)*100) : 0;
+  return `<div class="row" onclick="go('player','${e.id}')">
+    ${imgTag(e,'')}
+    <div class="body">
+      <div class="nm">${esc(e.name)}</div>
+      <div class="tt">${esc(e.title)}</div>
+      <div class="mt">${esc(e.era)} · ${fmt(e.duration)}</div>
+      ${pct>1 && !H[e.id] ? `<div class="pbar-mini"><i style="width:${pct}%"></i></div>` : ''}
+    </div>
+    <span class="badge ${H[e.id]?'h':'n'}">${H[e.id]?'✓':'●'}</span>
+  </div>`;
+}
+
+/* ---------- LIBRARY ---------- */
+function renderLibrary(){
+  const H = heard(), P = progress();
+  const { available } = unlockInfo();
+  const tags = [...new Set(available.flatMap(e=>e.tags))].sort();
+  const q = libQuery.trim().toLowerCase();
+  const list = available.filter(e=>{
+    const mq = !q || e.name.toLowerCase().includes(q) || e.title.toLowerCase().includes(q);
+    const mt = !libTag || e.tags.includes(libTag);
+    return mq && mt;
+  });
+  screen.innerHTML = `
+    <input class="search" id="search" placeholder="Buscar personaje…" value="${esc(libQuery)}">
+    <div class="tagbar">
+      <span class="tchip ${!libTag?'active':''}" onclick="setTag(null)">Todos</span>
+      ${tags.map(t=>`<span class="tchip ${libTag===t?'active':''}" onclick="setTag('${esc(t)}')">${esc(t)}</span>`).join('')}
+    </div>
+    <div class="count">${list.length} historias</div>
+    ${list.map(e=>rowCard(e,H,P)).join('')}`;
+  const s = $('search');
+  s.oninput = (ev)=>{ libQuery = ev.target.value; const pos=s.selectionStart; renderLibrary(); const ns=$('search'); ns.focus(); ns.setSelectionRange(pos,pos); };
+}
+function setTag(t){ libTag = (libTag===t)?null:t; renderLibrary(); }
+
+/* ---------- PLAYER ---------- */
+function renderPlayer(){
+  const e = ep(currentId), H = heard();
+  curVoice = e.audio.alvaro ? 'alvaro' : Object.keys(e.audio)[0];
+
+  screen.innerHTML = `
+    ${imgTag(e,'cover')}
+    <div class="p-era">${esc(e.era).toUpperCase()}</div>
+    <div class="p-name">${esc(e.name)}</div>
+    <div class="p-title">${esc(e.title)}</div>
+
+    <div class="track" id="track" style="margin-top:28px"><i id="fill"></i></div>
+    <div class="times"><span id="tcur">0:00</span><span id="tdur">${fmt(e.duration)}</span></div>
+    <div class="controls">
+      <button class="ctrl" onclick="seek(-15)">« 15</button>
+      <button class="playbtn" id="playbtn" onclick="togglePlay()">▶</button>
+      <button class="ctrl" onclick="seek(15)">15 »</button>
+    </div>
+    <button class="heardbtn ${H[e.id]?'on':''}" id="heardbtn" onclick="toggleHeard()">
+      ${H[e.id]?'✓ Escuchado':'Marcar como escuchado'}</button>
+
+    ${e.tags?.length?`<div class="tags">${e.tags.map(t=>`<span class="tag" onclick="libTag='${esc(t)}';go('library')">${esc(t)}</span>`).join('')}</div>`:''}
+    <button class="ghost" id="scriptBtn" onclick="toggleScript()">📄 Ver transcripción</button>
+    <div class="script" id="scriptBox" hidden>${esc(e.script)}</div>`;
+
+  loadAudio(e, false);
+  $('track').onclick = (ev)=>{
+    const r = ev.currentTarget.getBoundingClientRect();
+    if(audio.duration) audio.currentTime = ((ev.clientX-r.left)/r.width)*audio.duration;
+  };
+}
+
+function loadAudio(e, autoplay){
+  const src = e.audio[curVoice];
+  const full = new URL(src, location.href).href;
+  if(audio.src !== full){
+    audio.src = src;
+    const p = progress()[e.id] || 0;
+    audio.currentTime = 0;
+    audio.addEventListener('loadedmetadata', function once(){
+      if(p>0 && p < (audio.duration||1e9)-5) audio.currentTime = p;
+      audio.removeEventListener('loadedmetadata', once);
+    });
+  }
+  setMediaSession(e);
+  if(autoplay) audio.play();
+  syncPlayBtn();
+}
+
+function togglePlay(){ audio.paused ? audio.play() : audio.pause(); }
+function seek(d){ if(audio.duration) audio.currentTime = Math.max(0,Math.min(audio.duration, audio.currentTime+d)); }
+function syncPlayBtn(){ const b=$('playbtn'); if(b) b.textContent = audio.paused ? '▶' : '❚❚'; }
+
+function toggleScript(){
+  const box = $('scriptBox'), btn = $('scriptBtn');
+  if(!box) return;
+  const show = box.hasAttribute('hidden');
+  if(show){ box.removeAttribute('hidden'); btn.textContent = '📄 Ocultar transcripción'; }
+  else { box.setAttribute('hidden',''); btn.textContent = '📄 Ver transcripción'; }
+}
+
+function toggleHeard(){
+  const id = currentId, now = !heard()[id];
+  setHeard(id, now);
+  const b=$('heardbtn'); if(b){ b.classList.toggle('on',now); b.textContent = now?'✓ Escuchado':'Marcar como escuchado'; }
+}
+
+function setMediaSession(e){
+  if(!('mediaSession' in navigator)) return;
+  navigator.mediaSession.metadata = new MediaMetadata({
+    title: e.name, artist: e.title, album: 'JUIS',
+    artwork: e.image ? [{src:e.image, sizes:'512x512', type:'image/jpeg'}] : []
+  });
+  navigator.mediaSession.setActionHandler('play', ()=>audio.play());
+  navigator.mediaSession.setActionHandler('pause', ()=>audio.pause());
+  navigator.mediaSession.setActionHandler('seekbackward', ()=>seek(-15));
+  navigator.mediaSession.setActionHandler('seekforward', ()=>seek(15));
+}
+
+/* audio global events */
+audio.addEventListener('timeupdate', ()=>{
+  if(view!=='player' || !currentId) return;
+  const fill=$('fill'), tcur=$('tcur');
+  if(fill && audio.duration) fill.style.width = (audio.currentTime/audio.duration*100)+'%';
+  if(tcur) tcur.textContent = fmt(audio.currentTime);
+  if(audio.duration){
+    if(Math.floor(audio.currentTime)%4===0) setProg(currentId, Math.floor(audio.currentTime));
+    if(audio.currentTime/audio.duration > 0.92 && !heard()[currentId]){
+      setHeard(currentId,1);
+      const b=$('heardbtn'); if(b){b.classList.add('on');b.textContent='✓ Escuchado';}
+    }
+  }
+});
+audio.addEventListener('play', syncPlayBtn);
+audio.addEventListener('pause', ()=>{ syncPlayBtn(); if(currentId) setProg(currentId, Math.floor(audio.currentTime)); });
+audio.addEventListener('ended', ()=>{ if(currentId){ setHeard(currentId,1); } });
+
+/* install prompt */
+let deferred;
+window.addEventListener('beforeinstallprompt', (e)=>{ e.preventDefault(); deferred=e; $('install').style.display='inline'; });
+$('install').onclick = async ()=>{ if(deferred){ deferred.prompt(); deferred=null; $('install').style.display='none'; } };
+
+init();
+</script>
+</body>
+</html>
