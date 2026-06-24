@@ -270,7 +270,7 @@
       ],
       "order": 13,
       "duration": 356,
-      "image": null,
+      "image": "images/deporte-nadia.jpg",
       "audio": {
         "alvaro": "audio/deporte-nadia_alvaro.mp3"
       },
@@ -350,7 +350,7 @@
       ],
       "order": 17,
       "duration": 345,
-      "image": null,
+      "image": "images/deporte-babe-ruth.jpg",
       "audio": {
         "alvaro": "audio/deporte-babe-ruth_alvaro.mp3"
       },
@@ -430,7 +430,7 @@
       ],
       "order": 21,
       "duration": 395,
-      "image": null,
+      "image": "images/deporte-kobe.jpg",
       "audio": {
         "alvaro": "audio/deporte-kobe_alvaro.mp3"
       },
@@ -450,7 +450,7 @@
       ],
       "order": 22,
       "duration": 369,
-      "image": null,
+      "image": "images/deporte-kipchoge.jpg",
       "audio": {
         "alvaro": "audio/deporte-kipchoge_alvaro.mp3"
       },
@@ -470,7 +470,7 @@
       ],
       "order": 23,
       "duration": 351,
-      "image": null,
+      "image": "images/deporte-bannister.jpg",
       "audio": {
         "alvaro": "audio/deporte-bannister_alvaro.mp3"
       },
@@ -730,7 +730,7 @@
       ],
       "order": 11,
       "duration": 365,
-      "image": null,
+      "image": "images/eventos-independencia-eeuu.jpg",
       "audio": {
         "alvaro": "audio/eventos-independencia-eeuu_alvaro.mp3"
       },
@@ -970,7 +970,7 @@
       ],
       "order": 23,
       "duration": 408,
-      "image": null,
+      "image": "images/eventos-stalingrado.jpg",
       "audio": {
         "alvaro": "audio/eventos-stalingrado_alvaro.mp3"
       },
@@ -1757,7 +1757,7 @@
       ],
       "order": 13,
       "duration": 241,
-      "image": null,
+      "image": "images/kids-phelps.jpg",
       "audio": {
         "ximena": "audio/kids-phelps_ximena.mp3"
       },
@@ -1776,7 +1776,7 @@
       ],
       "order": 14,
       "duration": 253,
-      "image": null,
+      "image": "images/kids-nadia.jpg",
       "audio": {
         "ximena": "audio/kids-nadia_ximena.mp3"
       },
